@@ -5,18 +5,54 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#syntax  ",
+      "color": {
+        "a": 1,
+        "rgb": 6577366
+      }
+    },
+    {
+      "query": "tag:#design  ",
+      "color": {
+        "a": 1,
+        "rgb": 12555779
+      }
+    },
+    {
+      "query": "tag:#csharp  ",
+      "color": {
+        "a": 1,
+        "rgb": 10486464
+      }
+    },
+    {
+      "query": "tag:#dotnet  ",
+      "color": {
+        "a": 1,
+        "rgb": 525757
+      }
+    },
+    {
+      "query": "file:Main",
+      "color": {
+        "a": 1,
+        "rgb": 3669760
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "nodeSizeMultiplier": 1.61278586278586,
+  "lineSizeMultiplier": 1.49054054054054,
+  "collapse-forces": false,
+  "centerStrength": 0.470893970893971,
+  "repelStrength": 9.16839916839917,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
+  "scale": 0.7132754626224427,
   "close": true
 }
