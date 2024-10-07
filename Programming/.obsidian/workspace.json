@@ -55,12 +55,64 @@
             }
           },
           {
-            "id": "ffe4af2a1f4afea4",
+            "id": "d3725a26a29dcc77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Template Default Note.md",
+                "file": "Engineering/Design pattern.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f9aacbabfe4043c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/Managed heap.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c975aad3549e9043",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/CLR dotnet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5420aba70492a52c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/Framework .Net.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a37f09b2d2a1c99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/Object.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -68,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -134,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Template Default Note.md",
+                "file": "CSharp/Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Template Default Note.md",
+                "file": "CSharp/Object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Template Default Note.md"
+                "file": "CSharp/Object.md"
               }
             }
           },
@@ -187,7 +239,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,16 +258,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8bff0076496f245b",
+  "active": "8a37f09b2d2a1c99",
   "lastOpenFiles": [
-    "Main.md",
-    "Excalidraw/Drawing 2024-10-08 03.07.07.excalidraw.md",
-    "Excalidraw",
-    "Templates/Template Default Note.md",
-    "Engineering/Behavioral patterns.md",
-    "Engineering/Creational pattern.md",
-    "Engineering/Structural pattern.md",
+    "CSharp/Managed heap.md",
+    "CSharp/Framework .Net.md",
+    "CSharp/CLR dotnet.md",
+    "CSharp/CSharp.md",
+    "CSharp/Memory stack.md",
+    "CSharp/Object.md",
     "Engineering/Design pattern.md",
+    "Engineering/Behavioral patterns.md",
+    "Engineering/Structural pattern.md",
+    "Engineering/Creational pattern.md",
+    "Resources/Excalidraw/Drawing 2024-10-08 03.07.07.excalidraw.md",
+    "CSharp",
+    "Engineering/managed heap.md",
+    "Engineering/Managed memory.md",
+    "Engineering/Garbage Collector.md",
+    "Templates/Template Default Note.md",
+    "Main.md",
+    "Resources/Excalidraw",
     "Untitled 1.md",
     "Engineering",
     "Templates",

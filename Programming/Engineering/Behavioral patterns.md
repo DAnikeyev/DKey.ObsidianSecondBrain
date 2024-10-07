@@ -1,6 +1,7 @@
 ---
 date_added: 2024-10-08
 tags:
+  - design
 ---
 Up: [Design pattern](Design%20pattern.md)
 ___

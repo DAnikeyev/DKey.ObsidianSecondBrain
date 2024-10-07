@@ -1,7 +1,9 @@
 ---
-date_added: 2024-10-07
+date_added: 2024-10-08
 tags:
-  - design
+  - csharp
+  - dotnet
+  - syntax
 ---
 Up: [Main](Main.md)
 ___

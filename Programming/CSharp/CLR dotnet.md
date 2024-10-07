@@ -1,9 +1,9 @@
 ---
-date_added: 2024-10-07
+date_added: 2024-10-08
 tags:
-  - design
+  - dotnet
 ---
-Up: [Main](Main.md)
+Up: [[Framework .Net]]
 ___
 # Content
 # Links

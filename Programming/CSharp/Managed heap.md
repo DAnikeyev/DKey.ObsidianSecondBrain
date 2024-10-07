@@ -1,9 +1,9 @@
 ---
-date_added: 2024-10-07
+date_added: 2024-10-08
 tags:
-  - design
+  - dotnet
 ---
-Up: [Main](Main.md)
+Up: [CLR dotnet](CLR%20dotnet.md)
 ___
 # Content
 # Links
