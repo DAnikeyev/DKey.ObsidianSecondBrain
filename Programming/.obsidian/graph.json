@@ -11,14 +11,14 @@
       "query": "tag:#syntax  ",
       "color": {
         "a": 1,
-        "rgb": 6577366
+        "rgb": 6422524
       }
     },
     {
       "query": "tag:#design  ",
       "color": {
         "a": 1,
-        "rgb": 12555779
+        "rgb": 16771584
       }
     },
     {
@@ -54,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.7132754626224427,
-  "close": true
+  "close": false
 }
