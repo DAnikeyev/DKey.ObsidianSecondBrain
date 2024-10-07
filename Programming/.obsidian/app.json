@@ -1,0 +1,10 @@
+{
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "Resources",
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "Resources/",
+    "Templates/"
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "9c9db6c11c2f4411",
+    "type": "split",
+    "children": [
+      {
+        "id": "85fdb1295f235b0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4af07c5162bc5b95",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "806c76189a3b9346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "decfef2b96410aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a49b2c97c6feb3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engineering/Design pattern.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffe4af2a1f4afea4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89bce8ee1177f955",
+    "type": "split",
+    "children": [
+      {
+        "id": "5841e62a9f43dec8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bff0076496f245b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "492f1621479e5300",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20d3401e7e0f014c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "808cd7505d2431dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee1cfc71796281f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1d39ffa212a09b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "007bf0118e7206b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "65b056fa6c072cb3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c3da4917fd150bab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main.md"
+              }
+            }
+          },
+          {
+            "id": "cdb823f5c0803e36",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "8bff0076496f245b",
+  "lastOpenFiles": [
+    "Templates/Template Default Note.md",
+    "Engineering/Behavioral patterns.md",
+    "Engineering/Creational pattern.md",
+    "Engineering/Structural pattern.md",
+    "Engineering/Design pattern.md",
+    "Main.md",
+    "Untitled 1.md",
+    "Engineering",
+    "Templates",
+    "Resources",
+    "Terminal.md",
+    "Pasted image 20241007042358.png",
+    "2024-10-07.md",
+    "Welcome.md",
+    "by the way.md",
+    "Hey.md",
+    "CLI (dotnet).md",
+    "Pasted image 20241007042400.png",
+    "create a link.md"
+  ]
+}
