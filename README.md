@@ -1,2 +1,2 @@
 # Programming
- PersonalKnowledgeBase
+ Personal Knowledge Base In Obsidian

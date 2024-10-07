@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main.md",
+                "file": "Templates/Template Default Note.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main.md",
+                "file": "Templates/Template Default Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main.md",
+                "file": "Templates/Template Default Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main.md"
+                "file": "Templates/Template Default Note.md"
               }
             }
           },
@@ -208,12 +208,14 @@
   },
   "active": "8bff0076496f245b",
   "lastOpenFiles": [
+    "Main.md",
+    "Excalidraw/Drawing 2024-10-08 03.07.07.excalidraw.md",
+    "Excalidraw",
     "Templates/Template Default Note.md",
     "Engineering/Behavioral patterns.md",
     "Engineering/Creational pattern.md",
     "Engineering/Structural pattern.md",
     "Engineering/Design pattern.md",
-    "Main.md",
     "Untitled 1.md",
     "Engineering",
     "Templates",
