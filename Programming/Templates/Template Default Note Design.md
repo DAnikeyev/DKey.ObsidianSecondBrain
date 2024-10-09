@@ -1,11 +1,11 @@
 ---
-date_added: 2024-10-07
+date_added: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - design
 ---
-Up: [Design](Design.md)
+Up: [[<% tp.file.cursor(1) %>]]
 ___
-# Content
+ <% tp.file.cursor(2) %>
 # Links
 ```dataview
 LIST

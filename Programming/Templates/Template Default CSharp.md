@@ -1,10 +1,11 @@
 ---
 date_added: <% tp.date.now("YYYY-MM-DD") %>
 tags:
+  - csharp
 ---
-Up: [[<% tp.file.cursor() %>]]
+Up: [[<% tp.file.cursor(1) %>]]
 ___
-# Content
+ <% tp.file.cursor(2) %>
 # Links
 ```dataview
 LIST

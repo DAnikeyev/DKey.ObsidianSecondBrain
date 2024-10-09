@@ -1,9 +1,9 @@
 ---
-date_added: 2024-10-07
+date_added: 2024-10-09
 tags:
   - design
 ---
-Up: [Design](Design.md)
+Up: [Main](Main.md)
 ___
 # Content
 # Links

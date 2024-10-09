@@ -1,9 +1,9 @@
 ---
-date_added: 2024-10-07
+date_added: 2024-10-09
 tags:
   - design
 ---
-Up: [Design](Design.md)
+Up: [Design principle](Design%20principle.md)
 ___
 # Content
 # Links
@@ -11,5 +11,5 @@ ___
 LIST
 FROM [[]]
 WHERE contains(file.name, "")
-SORT file.name ASC
+SORT file.created_time ASC
 ```

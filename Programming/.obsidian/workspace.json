@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engineering/Creational pattern.md",
+                "file": "Engineering/SOLID principles.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering/Creational pattern.md",
+                "file": "Engineering/SOLID principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,9 +114,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineering/Creational pattern.md",
+                "file": "Engineering/SOLID principles.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Engineering/Creational pattern.md",
+                "file": "Engineering/SOLID principles.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -168,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 760.5
+    "width": 517.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,38 +185,41 @@
   },
   "active": "8001ea9669225163",
   "lastOpenFiles": [
-    "CSharp/Memory stack.md",
-    "Engineering/Creational pattern.md",
-    "CSharp/Object.md",
-    "CSharp/Framework .Net.md",
-    "CSharp/CLR dotnet.md",
-    "CSharp/CSharp.md",
-    "CSharp/Stackalloc.md",
-    "CSharp/Value types.md",
-    "CSharp/Interoperability.md",
-    "CSharp/Garbage Collector.md",
-    "CSharp/Managed heap.md",
-    "CSharp/CSharp Command.md",
-    "CSharp/Unmanaged memory.md",
-    "Engineering/Behavioral patterns.md",
-    "Engineering/Structural pattern.md",
     "Engineering/Design pattern.md",
     "Main.md",
-    "Resources/Excalidraw/Drawing 2024-10-08 03.07.07.excalidraw.md",
+    "CSharp/CSharp.md",
+    "CSharp/Framework .Net.md",
+    "CSharp/Object.md",
+    "CSharp/Value types.md",
+    "Engineering/Creational pattern.md",
+    "CSharp/Memory stack.md",
+    "CSharp/CLR dotnet.md",
+    "Excalidraw/Drawing 2024-10-09 04.37.00.excalidraw.md",
+    "Engineering/Dependency Inversion Principle.md",
+    "Engineering/Interface Segregation Principle.md",
+    "Engineering/God Object.md",
+    "Engineering/Design.md",
+    "Engineering/Liskov Substitution Principle.md",
+    "Engineering/Open-Closed Principle.md",
+    "Engineering/SOLID principles.md",
+    "Engineering/Anti-pattern.md",
+    "Templates/Template Default Note Design.md",
+    "Templates/Template Default CSharp.md",
+    "Templates/Template Default Note Dotnet.md",
+    "Templates/Template Default Note Syntax.md",
+    "Engineering/Single Responsibility Principle.md",
+    "Templates/Template Default Note 1 1 1 1.md",
+    "Templates/Template Default Note 1 1 1 1 1.md",
+    "Templates/Untitled.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Excalidraw",
     "CSharp",
-    "Engineering/managed heap.md",
-    "Engineering/Managed memory.md",
-    "Templates/Template Default Note.md",
     "Resources/Excalidraw",
-    "Untitled 1.md",
     "Engineering",
     "Templates",
     "Resources",
-    "Terminal.md",
     "Pasted image 20241007042358.png",
-    "2024-10-07.md",
-    "Welcome.md",
-    "by the way.md",
     "Pasted image 20241007042400.png"
   ]
 }
