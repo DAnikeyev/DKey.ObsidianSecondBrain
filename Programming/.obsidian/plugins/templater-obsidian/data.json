@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "Templates",
-      "template": "Templates/Template Default Note.md"
+      "template": "Templates/001Template Default Note.md"
     }
   ],
   "enable_file_templates": false,
@@ -29,7 +29,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templates/Template Default Note.md"
+    "Templates/001Template Default Note.md",
+    "Templates/007TemplateRef.md"
   ],
   "startup_templates": [
     ""

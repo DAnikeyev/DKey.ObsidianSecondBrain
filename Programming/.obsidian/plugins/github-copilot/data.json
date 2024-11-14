@@ -4,7 +4,7 @@
   "hotkeys": {
     "accept": "Tab",
     "cancel": "Escape",
-    "request": "Cmd-Shift-/",
+    "request": "Shift-Ctrl-?",
     "partial": "Cmd-Shift-.",
     "next": "Cmd-Shift-ArrowDown",
     "disable": "Cmd-Shift-ArrowRight"

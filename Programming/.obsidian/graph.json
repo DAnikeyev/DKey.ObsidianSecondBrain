@@ -41,6 +41,27 @@
         "a": 1,
         "rgb": 3669760
       }
+    },
+    {
+      "query": "tag:#skills  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#data  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +74,6 @@
   "repelStrength": 9.16839916839917,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5087618855792612,
-  "close": true
+  "scale": 0.7132754626224477,
+  "close": false
 }

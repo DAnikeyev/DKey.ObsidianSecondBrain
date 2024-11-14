@@ -6,5 +6,6 @@
   "userIgnoreFilters": [
     "Resources/",
     "Templates/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

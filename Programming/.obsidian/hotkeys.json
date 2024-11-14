@@ -1,4 +1,13 @@
 {
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
   "templater-obsidian:Templates/Template Default Note.md": [
     {
       "modifiers": [
@@ -8,13 +17,30 @@
       "key": "N"
     }
   ],
-  "graph:open-local": [
+  "templater-obsidian:Templates/001Template Default Note.md": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
-      "key": "G"
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:Templates/007TemplateRef.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
     }
   ]
 }
