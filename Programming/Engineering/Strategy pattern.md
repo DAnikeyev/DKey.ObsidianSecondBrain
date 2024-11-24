@@ -1,9 +1,9 @@
 ---
-date_added: 2024-11-10
+date_added: 2024-11-20
 tags:
   - design
 ---
-Up: [Design pattern](Design%20pattern.md)
+Up: [Behavioral patterns](Behavioral%20patterns.md)
 ___
  
 # Links

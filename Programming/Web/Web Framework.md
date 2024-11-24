@@ -1,9 +1,9 @@
 ---
-date_added: 2024-11-10
+date_added: 2024-11-24
 tags:
-  - design
+  - Web
 ---
-Up: [Design pattern](Design%20pattern.md)
+Up: [Web](Web.md)
 ___
  
 # Links
