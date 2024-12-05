@@ -7,8 +7,10 @@ tags:
 Up: [Format](Format.md)
 ___
 # Usage
+
 Used for readable [[Serialization]] and [[Deserialization]] of data.
 # Format
+
 **JavaScript Object Notation** is a dictionary with possible types:
 ```JSON
 {
@@ -24,11 +26,11 @@ Used for readable [[Serialization]] and [[Deserialization]] of data.
 	"array": ["what", "is", "love"]
 }
 ```
-# Invalid types
-JSON values **cannot** be one of the following data types:
-- a function
-- a date
-- _undefined_
+
+> [!info] Invalid types
+>- a function
+>- a date
+>- _undefined_
 # Extra
 * Duplicates might be allowed, depending on the parser.
 * Empty entries like "a":{} are allowed.
