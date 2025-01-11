@@ -1,7 +1,7 @@
 ---
 date_added: 2024-11-14
 tags:
-  - Data
+  - data
 ---
 Up: [Data](Data.md)
 ___

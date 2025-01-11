@@ -1,7 +1,7 @@
 ---
 date_added: 2024-11-13
 tags:
-  - Web
+  - web
 ---
 Up: [Web Entity](Web%20Entity.md)
 ___

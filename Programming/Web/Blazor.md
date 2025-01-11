@@ -1,9 +1,9 @@
 ---
 date_added: 2024-11-24
 tags:
-  - Web
   - csharp
   - blazor
+  - web
 ---
 Up: [ASP.Net](ASP.Net.md)
 ___

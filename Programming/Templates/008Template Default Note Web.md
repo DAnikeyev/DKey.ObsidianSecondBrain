@@ -1,7 +1,7 @@
 ---
 date_added: <% tp.date.now("YYYY-MM-DD") %>
 tags:
-  - Web
+  - web
 ---
 Up: [[<% tp.file.cursor(1) %>]]
 ___

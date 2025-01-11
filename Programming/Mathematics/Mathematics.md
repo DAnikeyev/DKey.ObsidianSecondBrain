@@ -1,9 +1,9 @@
 ---
-date_added: 2024-11-13
+date_added: 2025-01-08
 tags:
-  - web
+  - math
 ---
-Up: [[Web]]
+Up: [Main](Main.md)
 ___
  
 # Links

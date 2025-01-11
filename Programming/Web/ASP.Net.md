@@ -1,8 +1,8 @@
 ---
 date_added: 2024-11-24
 tags:
-  - Web
-  - csharp
+  - web
+  - charp
 ---
 Up: [Web Framework](Web%20Framework.md)
 ___

@@ -1,7 +1,7 @@
 ---
 date_added: 2024-11-24
 tags:
-  - Web
+  - web
 ---
 Up: [Web](Web.md)
 ___
