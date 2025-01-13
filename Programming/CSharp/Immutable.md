@@ -1,12 +1,14 @@
 ---
-date_added: 2024-10-08
+date_added: 2025-01-13
 tags:
   - csharp
-  - dotnet
 ---
-Up: [Object](Object.md)
+Up: [CTS](CTS.md)
 ___
-# Content
+# Examples
+ - Read-only reference type
+ - [[Constant]]
+ - [[String]]
 # Links
 ```dataview
 LIST

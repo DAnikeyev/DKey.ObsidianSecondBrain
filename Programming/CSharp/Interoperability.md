@@ -3,11 +3,9 @@ date_added: 2024-10-08
 tags:
   - dotnet
 ---
+
 ---
-date_added: 2024-10-31
-tags: []
----
-Up: [[]]
+Up: [CLR](CLR.md)
 ___
  
 # Links

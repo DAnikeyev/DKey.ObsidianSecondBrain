@@ -3,7 +3,7 @@ date_added: 2024-10-08
 tags:
   - dotnet
 ---
-Up: [CLR dotnet](CLR%20dotnet.md)
+Up: [CLR](CLR.md)
 ___
 # Content
 # Links

@@ -1,11 +1,11 @@
 ---
-date_added: 2024-10-08
+date_added: 2025-01-13
 tags:
   - dotnet
 ---
-Up: [[Framework .Net]]
+Up: [Intermediate Language](Intermediate%20Language.md)
 ___
-# Content
+ 
 # Links
 ```dataview
 LIST
