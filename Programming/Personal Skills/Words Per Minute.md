@@ -1,6 +1,7 @@
 ---
 date_added: 2024-10-15
 tags:
+  - skills
   - typing
 ---
 Up: [Typing](Typing.md)

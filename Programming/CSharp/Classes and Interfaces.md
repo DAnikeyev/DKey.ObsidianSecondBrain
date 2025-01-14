@@ -5,7 +5,7 @@ tags:
 ---
 Up: [CSharp Fundamentals](CSharp%20Fundamentals.md)
 ___
- In tradtional OOP the only type is a [Class]. C# has other types like [Interface]
+ In tradtional OOP the only type is a [[Class]]. C# has other types like [[Interface]]
 # Links
 ```dataview
 LIST

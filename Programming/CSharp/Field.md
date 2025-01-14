@@ -1,7 +1,7 @@
 ---
 date_added: 2025-01-13
 tags:
-  - charp
+  - csharp
 ---
 Up: [Class](Class.md)
 ___

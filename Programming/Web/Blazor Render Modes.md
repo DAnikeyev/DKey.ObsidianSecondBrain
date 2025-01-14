@@ -1,6 +1,7 @@
 ---
 date_added: 2024-11-24
 tags:
+  - blazor
   - web
 ---
 Up: [Blazor](Blazor.md)
