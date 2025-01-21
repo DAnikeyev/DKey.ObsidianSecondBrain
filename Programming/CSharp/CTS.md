@@ -18,7 +18,7 @@ ___
  - [[Interface]]
  - [Delegate](Delegate.md)
  - [[Enumeration]]
- - [[Structure]]
+ - [[Struct]]
 # Links
 ```dataview
 LIST

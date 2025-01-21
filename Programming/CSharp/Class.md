@@ -29,7 +29,7 @@ public class Customer
 - [[Finalizer]]
 - [[Property]]
 - [[CSharp Indexer|Indexer]]
-- [[Operator]]
+- [[CSharp Operator|Operator]]
 - [[Event]]
 - [Delegate](Delegate.md)
 ## Optional Characteristics

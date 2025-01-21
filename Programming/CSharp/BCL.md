@@ -7,7 +7,7 @@ Up: [CLR](CLR.md)
 ___
  Base Class Library provides a lot of functionality including
  * File I/O
- * [[Collections]]
+ * [[Collection]]
  * Text processing
  * Networking
  * XML/JSON processing
