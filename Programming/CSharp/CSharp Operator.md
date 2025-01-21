@@ -13,13 +13,29 @@ ___
 - [[Equality Operators]]
 
 There are also expressions:
-
 - [[Collection Expressions]]
 - [[Interpolated Strings]]
 - [[Lambda Expressions]]
 - [[Query Expressions]]
 - [[Member access operators and expressions]]
 
+Custom type Operators:
+ - [[Custom Conversion Operators]]
+ - [[Type Testing Operators]]
+
+Others:
+ - [[Pointer Related Operators]]
+ - [[Ternary Conditional Operator]]
+ - [[Null-forgiving Operator]]
+ - [[Null-Coalescing Operator]]
+ - [[Namespace Alias Operator]]
+ - [[Switch Operator]]
+ - [[New Operator]]
+ - [[Await Operator]]
+ - [[Default Operator]] 
+ - [[Delegate Operator]]
+ - NameOf Operator
+ - SizeOf Operator
 # Links
 ```dataview
 LIST
