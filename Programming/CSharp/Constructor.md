@@ -2,7 +2,6 @@
 date_added: 2025-01-13
 tags:
   - csharp
-  - syntax
 ---
 Up: [[Class]]
 ___

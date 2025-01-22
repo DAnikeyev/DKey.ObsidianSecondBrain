@@ -1,7 +1,6 @@
 ---
 date_added: 2025-01-20
 tags:
-  - syntax
   - csharp
 ---
 Up: [[Struct]]

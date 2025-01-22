@@ -3,7 +3,7 @@ date_added: 2025-01-20
 tags:
   - csharp
 ---
-Up: [CTS](CTS.md)
+Up: [Value Type](Value%20Type.md)
 ___
  Is a [Value Type](Value%20Type.md) that encapsulate data and functionality. Variable values are copied on the assignment.
 

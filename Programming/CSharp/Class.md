@@ -3,7 +3,7 @@ date_added: 2025-01-12
 tags:
   - dotnet
 ---
-Up: [CTS](CTS.md)
+Up: [Reference Type](Reference%20Type.md)
 ___
 is a [[Reference Type]] that can be derived from any other type and is implicitly derived from [[System.Object]].
 ``` csharp

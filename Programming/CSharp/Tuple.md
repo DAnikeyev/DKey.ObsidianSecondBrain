@@ -1,11 +1,14 @@
 ---
-date_added: 2025-01-13
+date_added: 2025-01-23
 tags:
   - csharp
 ---
 Up: [Value Type](Value%20Type.md)
 ___
- Are [[Immutable]] built-in types that are stored on the stack.
+ Is a syntax to group multiple data elements in a lightweight data structure.
+ ```cs
+(double, int) t = (4.5, 3);
+```
 # Links
 ```dataview
 LIST

@@ -3,7 +3,7 @@ date_added: 2025-01-21
 tags:
   - csharp
 ---
-Up: [[Class]]
+Up: [CSharp](CSharp.md)
 ___
  Operators that works with [[CTS]] built-in types:
 - [[Arithmetic Operators]]
@@ -11,7 +11,6 @@ ___
 - [[Boolean Logical Operators]]
 - [[Bitwise Logical Operators]]
 - [[Equality Operators]]
-
 There are also expressions:
 - [[Collection Expressions]]
 - [[Interpolated Strings]]
@@ -36,6 +35,7 @@ Others:
  - [[Delegate Operator]]
  - NameOf Operator
  - SizeOf Operator
+ - [[Deconstructor Operator]]
 # Links
 ```dataview
 LIST

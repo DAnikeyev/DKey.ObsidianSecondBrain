@@ -3,7 +3,7 @@ date_added: 2025-01-12
 tags:
   - csharp
 ---
-Up: [Object](Object.md)
+Up: [CTS](CTS.md)
 ___
  Store references to their data. Multiple variables can reference the same object.
 ## Reference types

@@ -4,7 +4,7 @@ tags:
   - csharp
   - dotnet
 ---
-Up: [Object](Object.md)
+Up: [[CTS]]
 ___
 Contains the actual data. by default on assignment, passing argument to a method, or returning from a method, a copy of the value is made. If Value type contains a reference type, the reference is copied, but the object is not. Value types are stored on the [Memory stack](Memory%20stack.md).
 
@@ -30,7 +30,7 @@ Constant expressions are evaluated at compile time.
 
 
 # References
- 1. [Value Type](Value%20Type.md)
+ 1. [Reference Type](Reference%20Type.md)
 # Links
 ```dataview
 LIST

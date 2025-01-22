@@ -2,9 +2,8 @@
 date_added: 2024-10-08
 tags:
   - csharp
-  - syntax
 ---
-Up: [[CSharp Command]]
+Up: [CSharp Operator](CSharp%20Operator.md)
 ___
 # Content
 # Links
