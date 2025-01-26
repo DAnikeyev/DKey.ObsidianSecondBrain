@@ -8,6 +8,12 @@ ___
  An _**event**_ is a member that enables an object to trigger notifications. Event users can attach executable code for events by supplying **event handlers**.
 
 Publisher has its own event, and the subscribers can subscribe to the event. When the publisher raises the event, the subscriber's event handler is called.
+
+## Event keyword
+
+Is actually not required, using action or a delegate is enough. event keyword prevents invoking the event outside of the class and also add event accesssors functionality.
+
+
 ## Example
  ```cs
  public class SampleEventArgs

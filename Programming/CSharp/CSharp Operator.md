@@ -13,7 +13,7 @@ ___
 - [[Equality Operators]]
 There are also expressions:
 - [[Collection Expressions]]
-- [[Interpolated Strings]]
+- [String Interpolation](String%20Interpolation.md)
 - [[Lambda Expressions]]
 - [[Query Expressions]]
 - [[Member access operators and expressions]]

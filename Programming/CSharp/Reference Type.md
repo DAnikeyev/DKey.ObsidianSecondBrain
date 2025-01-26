@@ -14,6 +14,7 @@ ___
 - [[Dynamic]]
 - [[Object]] is an alias for System.Object so it is a reference type
 - [[String]] is an alias for System.String class so it is a reference type
+- [Collection](Collection)
 
 
 # References
