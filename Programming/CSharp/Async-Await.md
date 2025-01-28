@@ -1,11 +1,11 @@
 ---
-date_added: 2024-10-08
+date_added: 2025-01-29
 tags:
-  - dotnet
+  - csharp
 ---
-Up: [CLR](CLR.md)
+Up: [Asynchronous programming](Asynchronous%20programming.md)
 ___
-# Content
+ 
 # Links
 ```dataview
 LIST

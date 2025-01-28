@@ -4,7 +4,7 @@ tags: []
 ---
 Up: [Fundamental Interfaces](Fundamental%20Interfaces.md)
 ___
- IDisposable is mostly used to release [Unmanaged resources](Unmanaged%20memory.md) such as file handles, database connections, etc. It is implemented by classes that use unmanaged resources. It is a part of the System namespace.
+ IDisposable is mostly used to release [Unmanaged resources](Unmanaged%20resources.md) such as file handles, database connections, etc. It is implemented by classes that use unmanaged resources. It is a part of the System namespace.
 
 ## Methods
 - Dispose() - It is used to release all the resources used by the object.

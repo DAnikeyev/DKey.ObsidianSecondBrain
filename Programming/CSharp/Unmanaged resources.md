@@ -1,11 +1,11 @@
 ---
-date_added: 2024-11-20
+date_added: 2024-10-08
 tags:
-  - process
+  - dotnet
 ---
-Up: [[Processes/Task]]
+Up: [CLR](CLR.md)
 ___
- 
+## Content
 # Links
 ```dataview
 LIST

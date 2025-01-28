@@ -3,7 +3,7 @@ date_added: 2024-11-20
 tags:
   - process
 ---
-p: [[Task]]
+p: [[Processes/Task]]
 ___
  
 # Links
