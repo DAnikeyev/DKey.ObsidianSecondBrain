@@ -30,11 +30,11 @@ There is also a [[Comparer]]
 - [[Memory]]
 - [[IEnumerable]]
 ## Concurrent Collections:
-- [[ConcurrentBag]]
+- [[Concurrent Bag]]
 - [[Concurrent Dictionary]]
 - [[Concurrent Queue]]
-- [[ConcurrentStack]]
-- [[BlockingCollection]]
+- [[Concurrent Stack]]
+- [[Blocking Collection]]
 
 There is also a [[Partitioner]]
 

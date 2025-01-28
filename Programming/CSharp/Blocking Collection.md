@@ -13,6 +13,19 @@ BlockingCollection<int> fifoCollection = new BlockingCollection<int>();
 // LIFO behavior using ConcurrentStack<T>
 BlockingCollection<int> lifoCollection = new BlockingCollection<int>(new ConcurrentStack<int>());
 ```
+
+Useful for implementing [Producer-Consumer Pattern](Producer-Consumer%20Pattern.md) 
+
+## Features
+ - Bounding:
+ `BlockingCollection<int> collection = new BlockingCollection<int>(3);`
+ - Blocking: This operation will block thread until the item is available.
+ `int item = collection.Take();`
+
+>[!Info]
+> BlockingCollection<\T> implements [IDisposable](IDisposable.md)
+
+
 # Links
 ```dataview
 LIST

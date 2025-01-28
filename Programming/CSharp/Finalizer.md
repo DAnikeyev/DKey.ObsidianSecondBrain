@@ -40,7 +40,7 @@ The finalizer implicitly calls [Finalize](https://learn.microsoft.com/en-us/dotn
  ```
 The programmer has no control over when the finalizer is called; the garbage collector decides when to call it. It's possible to force garbage collection by calling [Collect](https://learn.microsoft.com/en-us/dotnet/api/system.gc.collect), but most of the time, this call should be avoided because it may create performance issues.
 # References
- 1. [[IDisposable Interface]]
+ 1. [[IDisposable]]
 # Links
 ```dataview
 LIST

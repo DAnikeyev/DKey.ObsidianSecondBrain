@@ -1,3 +1,19 @@
+---
+date_added: 2025-01-28
+tags:
+  - csharp
+---
+Up: [Collection Interface](Collection%20Interface.md)
+___
+ 
+# Links
+```dataview
+LIST
+FROM [[]]
+WHERE contains(file.name, "")
+SORT file.name ASC
+```
+
 ## Properties
 
 |   |   |
