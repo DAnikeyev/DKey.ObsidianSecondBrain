@@ -17,7 +17,7 @@ There are [[Collection Interface]] that implements different collections.
 There is also a [[Comparer]] 
 ## Generic types:
 - [[Array]]
-- [[List]]
+- [[Generic List]]
 - [[Dictionary]]
 - [[Queue]]
 - [[Stack]]
@@ -31,8 +31,8 @@ There is also a [[Comparer]]
 - [[IEnumerable]]
 ## Concurrent Collections:
 - [[ConcurrentBag]]
-- [[ConcurrentDictionary]]
-- [[ConcurrentQueue]]
+- [[Concurrent Dictionary]]
+- [[Concurrent Queue]]
 - [[ConcurrentStack]]
 - [[BlockingCollection]]
 

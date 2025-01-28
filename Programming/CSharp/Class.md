@@ -18,7 +18,7 @@ public class Customer
 >[!info]
 > - Declarations in classes can have various [[Access modifiers]]
 > - Class can be [[Public]] or [[Internal]] (Internal by default))
-> - Can have [[Constraint]]
+> - Can have [[Generic Constraint]]
 
 ## Declarations in class
 

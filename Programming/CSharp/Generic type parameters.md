@@ -3,7 +3,7 @@ date_added: 2025-01-13
 tags:
   - csharp
 ---
-Up: [Class](Class.md)
+Up: [[CTS]]
 ___
 Generics allow you to defer specification of 1 or more parameters of a class or method until it is used. 
 

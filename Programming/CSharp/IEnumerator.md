@@ -6,6 +6,24 @@ tags:
 Up: [Collection Interface](Collection%20Interface.md)
 ___
 
+To iterate over custom collection using foreach keyword, class should implement IEnumerable interface that requires GetEnumerator method implementation with Enumerator that has methods
+- MoveNext()
+- Reset()
+- Current
+
+
+```cs
+// Implementation for the GetEnumerator method.
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+       return (IEnumerator) GetEnumerator();
+    }
+
+    public PeopleEnum GetEnumerator()
+    {
+        return new PeopleEnum(_people);
+    }
+```
 
 ## Properties
 
