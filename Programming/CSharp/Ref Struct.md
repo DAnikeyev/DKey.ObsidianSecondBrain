@@ -13,11 +13,10 @@ To ensure that Intances can't escape [Memory stack](Memory%20stack.md) compiler 
 - Ref struct can't be the element of array
 - Can't be a type or a field of a class or a non-ref struct
 - Can't be boxed
-- Can't be used in methods in the same block with [[Await]]
+- Can't be used in methods in the same block with [[await]]
 - Can't be captured in [[Lambda Expressions]] or [[Local Functions]]
 - Can't be used in iterators with [[Yield]] keyword
 - Can't be a type argument unless ==allows ref struct== constraint is used
-- 
 
 
 # Links

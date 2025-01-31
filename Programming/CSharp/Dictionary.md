@@ -1,7 +1,7 @@
 ---
 date_added: 2025-01-27
 tags:
-  - cs
+  - csharp
 ---
 Up: [Collection](Collection.md)
 ___

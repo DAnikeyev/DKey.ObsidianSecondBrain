@@ -5,7 +5,9 @@ tags:
 ---
 Up: [CSharp Operator](CSharp%20Operator.md)
 ___
-You use the `switch` expression to evaluate a single expression from a list of candidate expressions based on a pattern match with an input expression. Can also be used in a [[Pattern-matching switch]]
+You use the `switch` expression to evaluate a single expression from a list of candidate expressions based on a pattern match with an input expression. Can also be used in a [Pattern expressions](Pattern%20expressions).
+
+Do not confuse with [switch](switch.md) statement
 
  ```cs
 public static Orientation ToOrientation(Direction direction) => direction switch

@@ -3,7 +3,7 @@ date_added: 2025-01-31
 tags:
   - csharp
 ---
-Up: [Collection](Collection.md)
+Up: [CSharp Statement](CSharp%20Statement.md)
 ___
  
 # Links
@@ -13,5 +13,3 @@ FROM [[]]
 WHERE contains(file.name, "")
 SORT file.name ASC
 ```
->[!Info]
-> Non-generic type is not recommended to use in new code. Use generic types instead.

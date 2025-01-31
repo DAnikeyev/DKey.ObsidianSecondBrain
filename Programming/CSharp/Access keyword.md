@@ -3,9 +3,9 @@ date_added: 2025-01-31
 tags:
   - csharp
 ---
-Up: [Collection](Collection.md)
+Up: [keyword](keyword.md)
 ___
- 
+ Is a way to access derived or this object members.
 # Links
 ```dataview
 LIST
@@ -13,5 +13,3 @@ FROM [[]]
 WHERE contains(file.name, "")
 SORT file.name ASC
 ```
->[!Info]
-> Non-generic type is not recommended to use in new code. Use generic types instead.
