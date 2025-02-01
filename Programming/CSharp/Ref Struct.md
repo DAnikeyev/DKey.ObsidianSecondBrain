@@ -6,7 +6,7 @@ tags:
 Up: [Struct](Struct.md)
 ___
  ref modifier can be used to declare a struct that is not copied when passed as a parameter to a method. 
-For example [[Span]] and [[ReadOnlySpan]] are structs that use the ref modifier 
+For example [[Span T]] and [[ReadOnlySpan]] are structs that use the ref modifier 
 
 ## Restrictions
 To ensure that Intances can't escape [Memory stack](Memory%20stack.md) compiler limits ref struct usage

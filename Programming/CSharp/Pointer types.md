@@ -25,7 +25,7 @@ Pointer types don't inherit from [Object](Object.md) and no conversions exist be
 
 ```cs
 Span<int> numbers = stackalloc int[length];
-fixed (byte* pointerToFirst = bytes)
+fixed (byte* pointerToFirst = numbers)
 ```
 
 ```

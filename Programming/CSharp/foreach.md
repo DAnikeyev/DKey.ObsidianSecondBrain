@@ -20,7 +20,7 @@ The `foreach` statement isn't limited to those types. You can use it with an ins
 
 - A type has the public parameterless `GetEnumerator` method. The `GetEnumerator` can be an [Extension method](Extension%20method.md), not the direct implementation of [IEnumerable](IEnumerable.md)
 - The return type of the `GetEnumerator` method has the public `Current` property and the public parameterless `MoveNext` method whose return type is `bool`.
-For example [Span](Span) does not implement that interface.
+For example [Span T](Span%20T.md) does not implement that interface.
 
 ```cs
 Span<int> numbers = [3, 14, 15, 92, 6];
