@@ -11,7 +11,7 @@ Publisher has its own event, and the subscribers can subscribe to the event. Whe
 
 ## Event keyword
 
-Is actually not required, using action or a delegate is enough. event keyword prevents invoking the event outside of the class and also add event accesssors functionality.
+Is actually not required, using [[Action]] or a [[delegate]] is enough. event keyword prevents invoking the event outside of the class and also add event accesssors functionality.
 
 
 ## Example

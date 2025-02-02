@@ -1,6 +1,7 @@
 ---
 date_added: 2025-01-22
-tags: []
+tags:
+  - csharp
 ---
 Up: [CSharp Operator](CSharp%20Operator.md)
 ___

@@ -6,7 +6,7 @@ tags:
 ---
 Up: [[Class]]
 ___
-Finalizers (historically referred to as **destructors**) are used to perform any necessary final clean-up when a class instance is being collected by the garbage collector. In most cases, you can avoid writing a finalizer by using the [System.Runtime.InteropServices.SafeHandle](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.safehandle) or derived classes to wrap any unmanaged handle.
+Finalizers (historically referred to as **destructors**) are used to perform any necessary final clean-up when a class instance is being collected by the garbage collector. In most cases, you can avoid writing a finalizer by using the [System.Runtime.InteropServices.SafeHandle](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.safehandle) or derived classes to wrap any [unmanaged](Unmanaged.md) handle.
 
 ## Rules
 - Finalizers cannot be defined in structs. They are only used with classes.

@@ -21,7 +21,7 @@ ___
 // The value of the first array element: 1.
 ```
 
-if `GetPinnableReference` method is implemented, `fixed` can be used with with unmanaged type:
+if `GetPinnableReference` method is implemented, `fixed` can be used with with [unmanaged](Unmanaged.md) type:
 
 ```cs
 unsafe

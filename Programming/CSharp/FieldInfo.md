@@ -1,9 +1,9 @@
 ---
-date_added: 2025-01-29
+date_added: 2025-02-02
 tags:
   - csharp
 ---
-Up: [[]]
+Up: [Reflection](Reflection.md)]
 ___
  
 # Links

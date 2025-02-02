@@ -20,7 +20,7 @@ This type parameter is covariant. That is, you can use either the type you speci
 
 |   |   |
 |---|---|
-|[DisposeAsync()](https://learn.microsoft.com/en-us/dotnet/api/system.iasyncdisposable.disposeasync?view=net-9.0#system-iasyncdisposable-disposeasync)|Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources asynchronously.<br><br>(Inherited from [IAsyncDisposable](https://learn.microsoft.com/en-us/dotnet/api/system.iasyncdisposable?view=net-9.0))|
+|[DisposeAsync()](https://learn.microsoft.com/en-us/dotnet/api/system.iasyncdisposable.disposeasync?view=net-9.0#system-iasyncdisposable-disposeasync)|Performs application-defined tasks associated with freeing, releasing, or resetting [unmanaged](Unmanaged.md) resources asynchronously.<br><br>(Inherited from [IAsyncDisposable](https://learn.microsoft.com/en-us/dotnet/api/system.iasyncdisposable?view=net-9.0))|
 |[MoveNextAsync()](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.iasyncenumerator-1.movenextasync?view=net-9.0#system-collections-generic-iasyncenumerator-1-movenextasync)|Advances the enumerator asynchronously to the next element of the collection.|
 
 # Links

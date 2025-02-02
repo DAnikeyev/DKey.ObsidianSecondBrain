@@ -113,7 +113,7 @@ C#
 ```cs
 // Implements IDisposable
 public virtual void Dispose()
-// Called by Dispose to release unmanaged resources
+// Called by Dispose to release [unmanaged](Unmanaged.md) resources
 protected virtual void Dispose(bool disposing)
 ```
 

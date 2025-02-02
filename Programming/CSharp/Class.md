@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Reference Type](Reference%20Type.md)
 ___
-is a [[Reference Type]] that can be derived from any other type and is implicitly derived from [[System.Object]].
+is a [[Reference Type]] that can be derived from any other type and is implicitly derived from [[Object]].
 ``` csharp
 //[access modifier] - [class] - [identifier]
 public class Customer

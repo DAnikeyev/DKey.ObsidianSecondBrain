@@ -45,7 +45,7 @@ try
 finally { Marshal.FreeHGlobal(ptr); }
 ```
 
-### Example: Reading from [Unmanaged resources](Unmanaged%20resources.md)
+### Example: Reading from [Unmanaged](Unmanaged.md)
   
 Imagine you have a C function like this:
 

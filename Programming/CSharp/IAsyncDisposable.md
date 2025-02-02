@@ -1,6 +1,7 @@
 ---
 date_added: 2025-01-28
-tags: []
+tags:
+  - csharp
 ---
 Up: [Fundamental Interfaces](Fundamental%20Interfaces.md)
 ___

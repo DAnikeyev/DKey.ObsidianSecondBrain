@@ -1,6 +1,7 @@
 ---
 date_added: 2025-01-26
-tags: []
+tags:
+  - csharp
 ---
 Up: [Collection Interface](Collection%20Interface.md)
 ___
