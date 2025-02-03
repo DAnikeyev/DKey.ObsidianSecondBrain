@@ -60,7 +60,7 @@ void FillBuffer(unsigned char* buffer, int length) {
 
 #### Interop in C#
 
-You can use [[P/Invoke]] to call this function from C# and use `Span<byte>` to work with the buffer:
+You can use [P-Invoke](P-Invoke.md) to call this function from C# and use `Span<byte>` to work with the buffer:
 
 ```csharp
 using System;

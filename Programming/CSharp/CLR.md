@@ -9,7 +9,7 @@ ___
 
 ## Features
 - [Interoperability](Interoperability.md)
-- [Memory Management](Memory%20Management.md) including [Garbage Collection](Garbage%20Collection.md)
+- [Memory Management](Memory%20Management.md) including [Garbage Collector](Garbage%20Collector.md)
 - [[Exception]] Handling
 - [[Security in CLR]]
 - Extensible types provided by [[BCL]]

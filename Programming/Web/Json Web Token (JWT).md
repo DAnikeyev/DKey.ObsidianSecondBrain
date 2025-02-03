@@ -6,7 +6,7 @@ tags:
 ---
 Up: [Authorization](Authorization.md)
 ___
- JWT is a standard for creating access tokens that can be used to authenticate [Web User](Web%20User.md). It is a compact and self-contained way for securely transmitting information between parties as a [[JSON]] object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA.
+ JWT is a standard for creating access tokens that can be used to authenticate [Web User](Web%20User.md). It is a compact and self-contained way for securely transmitting information between parties as a [[Data/Formats/JSON]] object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA.
  
 # Example
  ![](Pasted%20image%2020241113235613.png)

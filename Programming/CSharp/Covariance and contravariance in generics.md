@@ -11,7 +11,7 @@ ___
     
     Enables you to use a more derived type than originally specified.
     
-    You can assign an instance of `IEnumerable<Derived>` to a variable of type `IEnumerable<Base>`.
+    You can assign an instance of `IEnumerable<Derived>` to a variable of type `IEnumerable<Base>` in .
     
 - `Contravariance`
     

@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Class](Class.md)
 ___
- Methods are declared in [[Class]], [Struct](Struct) or [Interface](Interface) can have [Access modifiers](Access%20modifiers.md) and optional modifiers such as [[Abstract]], [[Sealed]], [[Virtual]] [[Override]] and [[Static]].
+ Methods are declared in [[Class]], [Struct](Struct) or [Interface](Interface) can have [Access modifiers](Access%20modifiers.md) and optional modifiers such as [[Abstract]], [[Sealed]], [[Virtual]] [[Override]] and [[static]].
 
 >[!Info]
 >A return type of a method is not part of the signature of the method for the purposes of method overloading. However, it is part of the signature of the method when determining the compatibility between a delegate and the method that it points to.

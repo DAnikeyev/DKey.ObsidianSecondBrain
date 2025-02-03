@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Data](Data.md)
 ___
- is a process of processing transmitted or stored data into [Data Structure](Data%20Structure) or object state. Inverse function of [Serialization](Serialization).
+ is a process of processing transmitted or stored data into [Data Structure](Data%20Structure) or object state. Inverse function of [Serialization](Data/Serialization.md).
 
 # Links
 ```dataview

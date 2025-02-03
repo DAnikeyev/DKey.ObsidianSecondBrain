@@ -6,7 +6,7 @@ tags:
 Up: [Format](Format.md)
 ___
 # Usage
-Used for readable [[Serialization]] and [[Deserialization]] of data. Yaml Ain't Markup Language.
+Used for readable [[Data/Serialization]] and [[Deserialization]] of data. Yaml Ain't Markup Language.
 # Syntax 
 Consist mostly of key value pairs. Space indentation is used instead of brackets. 
 ```yaml

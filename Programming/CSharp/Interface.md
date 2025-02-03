@@ -10,7 +10,7 @@ ___
 ## Content
 - [Constant](Constant.md)
 - [Operator](CSharp%20Operator.md)
-- [Static](Static.md) [Constructor](Constructor.md)
+- [static](static.md) [Constructor](Constructor.md)
 - [Method](Method.md)
 - [Property](Property.md)
 - Nested types

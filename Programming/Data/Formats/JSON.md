@@ -8,7 +8,7 @@ Up: [Format](Format.md)
 ___
 # Usage
 
-Used for readable [[Serialization]] and [[Deserialization]] of data.
+Used for readable [[Data/Serialization]] and [[Deserialization]] of data.
 # Format
 
 **JavaScript Object Notation** is a dictionary with possible types:

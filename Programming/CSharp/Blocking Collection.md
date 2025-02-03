@@ -19,7 +19,7 @@ Useful for implementing [Producer-Consumer Pattern](Producer-Consumer%20Pattern.
 ## Features
  - Bounding:
  `BlockingCollection<int> collection = new BlockingCollection<int>(3);`
- - Blocking: This operation will block thread until the item is available.
+ - Blocking: This operation will block [[Thread]] until the item is available.
  `int item = collection.Take();`
 
 >[!Info]

@@ -3,7 +3,7 @@ date_added: 2025-01-31
 tags:
   - csharp
 ---
-Up: [Access keyword](Access%20keyword.md)
+Up: [Object Access keyword](Object%20Access%20keyword.md)
 ___
 ## Name clarification
 
