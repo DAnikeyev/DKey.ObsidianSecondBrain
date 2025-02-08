@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Framework .Net](Framework%20.Net.md)
 ___
- 
+  The .NET command-line interface (CLI) is a cross-platform toolchain for developing, building, running, and publishing .NET applications.
 # Links
 ```dataview
 LIST
