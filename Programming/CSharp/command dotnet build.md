@@ -103,7 +103,7 @@ dotnet build MyProject.csproj -c Release -f net7.0 --arch x64 -o ./buildOutput
     
 15. -p|--property:\<PROPERTYNAME>=\<VALUE> • Sets an MSBuild property by name and value. You can pass multiple -p flags if needed. Example: dotnet build MyProject.csproj -p:DefineConstants=DEBUG;TRACE
     
-16. -r|--runtime <RUNTIME_IDENTIFIER> • Builds the project for a specific runtime identifier (RID), such as win10-x64, linux-arm, etc.
+16. -r|--runtime <RUNTIME_IDENTIFIER> • Builds the project for a specific [RID (Runtime Identifier)](RID%20(Runtime%20Identifier).md)], such as win10-x64, linux-arm, etc.
     
 17. --self-contained \true|false • Controls whether the app is self-contained (bundles its own .NET runtime) or framework-dependent. See [self-contained app](self-contained%20app.md)
     

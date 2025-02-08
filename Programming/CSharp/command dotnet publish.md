@@ -29,7 +29,7 @@ dotnet publish -h|--help
 - `-c|--configuration <CONFIGURATION>`: Specifies the configuration to build. Like  `Debug`, `Release`, etc.
 - `-f|--framework <FRAMEWORK>`: Specifies the target framework to build for. Like `net5.0`, `net6.0`, etc.
 - `--self-contained [true|false]`: Publishes the .NET runtime with the application. If `true`, the output will be a self-contained deployment. If `false`, the output will be a framework-dependent deployment.
-- `-r|--runtime <RUNTIME_IDENTIFIER>`: Specifies the target runtime to publish for. Like `win-x64`, `linux-x64`, etc.
+- `-r|--runtime <RUNTIME_IDENTIFIER>`: Specifies the target [RID (Runtime Identifier)](RID%20(Runtime%20Identifier).md) to publish for. Like `win-x64`, `linux-x64`, etc.
 - `--no-build`: Skips building the project before publishing. Useful when you want to publish without building the project again.
 - ``--artifacts-path <ARTIFACTS_DIR>``: Specifies the directory where build artifacts are placed. Useful for incremental builds.
 - `--no-restore`: Skips the implicit restore step before publishing. Useful when you want to publish without restoring the project's dependencies.

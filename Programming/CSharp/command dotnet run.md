@@ -20,6 +20,11 @@ dotnet run -h|--help
 
 The `dotnet run` command is used in the context of projects, not built assemblies.
 
+## Main flags:
+- `-c|--configuration <CONFIGURATION>`: Specifies the configuration to build. Like `Debug`, `Release`, etc.
+- `-f|--framework <FRAMEWORK>`: Specifies the target framework to build for. Like `net5.0`, `net6.0`, etc.
+- -r `--runtime <RUNTIME_IDENTIFIER>`: Specifies the target [RID (Runtime Identifier)](RID%20(Runtime%20Identifier).md) to publish for. Like `win-x64`, `linux-x64`, etc.
+
 | Command            | Description                                                                                                                                              | Typical Use Case                                                                                                                                            |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **dotnet build**   | Compiles the source code and generates intermediate binaries (DLLs or EXEs). It checks for errors but does not execute the application.                  | Use during development to verify that the code compiles correctly without running the application, ideal for quick builds and error checking.               |
