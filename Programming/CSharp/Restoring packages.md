@@ -11,6 +11,12 @@ ___
 1. **Dependency Resolution**: The `dotnet restore` command resolves the dependencies specified in your project file. It ensures that all required packages are downloaded and available in the global cache.
     
 2. **Creating a Lock File**: A lock file (`project.assets.json`) is generated in the `obj` directory. This file contains a detailed list of all resolved dependencies and their versions. It ensures consistent builds by locking the dependencies to specific versions.
+
+## Package Restore behavior
+
+Package Restore tries to install all package dependencies to the state that matches the `<PackageReference>`s in a project file, such as _.csproj_, or `<package>`s in a packages.config file.
+packages.config is the old way of managing packages in .NET projects. It is still supported in .NET Core, but it is recommended to use PackageReference in .csproj files.
+
 # Links
 ```dataview
 LIST

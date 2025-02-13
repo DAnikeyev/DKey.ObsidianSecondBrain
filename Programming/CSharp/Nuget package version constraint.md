@@ -16,7 +16,7 @@ When project need specific range of libraries you can specify constraints like t
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Exact version -->
+    <!-- Minimum -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 
     <!-- Minimum version -->

@@ -30,6 +30,32 @@ Consider the following example:
 - PackageB v2.0 depends on PackageC >=1.5 <3.0.
 
 The dependency resolver will determine that the compatible version of PackageC that satisfies both constraints is v1.5.x.
+
+## Rules
+
+
+#### Lowest applicable version
+
+The lowest applicable version rule restores the lowest possible version of a package as defined by its dependencies.
+
+
+#### Floating versions
+
+A floating dependency version is specified with the * character. For example, `6.0.*`. This version specification says "use the latest 6.0.x version"; `4.*` means "use the latest 4.x version."
+
+
+#### Direct dependency wins
+
+When the package graph for an application contains different versions of a package in the same subgraph, and one of those versions is a direct dependency in that subgraph, that version would be chosen for that subgraph and the rest will be ignored. This behavior allows an application to override any particular package version in the dependency graph.
+
+>[!Warning]
+> The Direct dependency wins rule can result in a downgrade of the package version, thus potentially breaking other dependencies in the graph. When a package is downgraded, NuGet adds a [warning to alert the user](https://learn.microsoft.com/en-us/nuget/reference/errors-and-warnings/nu1605).
+
+
+### Cousin dependencies
+
+When different package versions are referred in different subgraphs in the graph from the application, NuGet uses the lowest version that satisfies all version requirements
+
 # Links
 ```dataview
 LIST

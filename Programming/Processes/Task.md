@@ -3,7 +3,7 @@ date_added: 2024-11-20
 tags:
   - process
 ---
-p: [[Processes/Task]]
+Up: [Process](Process.md)
 ___
  
 # Links

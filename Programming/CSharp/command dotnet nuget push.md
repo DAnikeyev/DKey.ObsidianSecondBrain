@@ -3,7 +3,7 @@ date_added: 2025-02-09
 tags:
   - csharp
 ---
-Up: [DotNet CLI (Command Line Interface)](DotNet%20CLI%20(Command%20Line%20Interface).md)
+Up: [command dotnet nuget](command%20dotnet%20nuget.md)
 ___
  Pushes a package to the server and publishes it.
  ```cs

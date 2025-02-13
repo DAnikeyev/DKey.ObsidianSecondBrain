@@ -1,6 +1,7 @@
 ---
 date_added: 2025-02-03
-tags: []
+tags:
+  - data
 ---
 Up: [Serialization](CSharp/Serialization.md)
 ___
