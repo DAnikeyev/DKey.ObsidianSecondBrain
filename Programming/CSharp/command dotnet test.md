@@ -50,11 +50,11 @@ dotnet test -h|--help
 
 `<property>` is an attribute of the `Test Case`. The following are the properties supported by popular unit test frameworks:
 
-|Test Framework|Supported properties|
-|---|---|
-|MSTest|- FullyQualifiedName<br>- Name<br>- ClassName<br>- Priority<br>- TestCategory|
-|xUnit|- FullyQualifiedName<br>- DisplayName<br>- Category|
-|NUnit|- FullyQualifiedName<br>- Name<br>- Category<br>- Priority|
+| Test Framework | Supported properties                                                          |
+| -------------- | ----------------------------------------------------------------------------- |
+| MSTest         | - FullyQualifiedName<br>- Name<br>- ClassName<br>- Priority<br>- TestCategory |
+| xUnit          | - FullyQualifiedName<br>- DisplayName<br>- Category                           |
+| NUnit          | - FullyQualifiedName<br>- Name<br>- Category<br>- Priority                    |
 
 The `<operator>` describes the relationship between the property and the value:
 
@@ -68,7 +68,21 @@ The `<operator>` describes the relationship between the property and the value:
 `<value>` is a string. All the lookups are case insensitive.
 
 
+## Example
+```cs
+dotnet test --filter FullyQualifiedName~MyNamespace.MyClass.MyTestMethod
+
+dotnet test --filter Name=MyTestMethod
+
+
+dotnet test --filter Category=MyTestCategory & FullyQualifiedName~MyNamespace.MyClass.MyTestMethod
+
 ```
+
+```
+
+```
+
 # Links
 ```dataview
 LIST
