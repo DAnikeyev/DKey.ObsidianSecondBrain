@@ -5,7 +5,7 @@ tags:
 ---
 Up: [CSharp Operator](CSharp%20Operator.md)
 ___
- Used for [[Pointer types]]
+ Used for [[Pointer type]]
  - Unary [`&` (address-of)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/pointer-related-operators#address-of-operator-) operator: to get the address of a variable
  - Unary [`*` (pointer indirection)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/pointer-related-operators#pointer-indirection-operator-) operator: to obtain the variable pointed by a pointer
  - The [`->` (member access)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/pointer-related-operators#pointer-member-access-operator--) and [`[]` (element access)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/pointer-related-operators#pointer-element-access-operator-) operators

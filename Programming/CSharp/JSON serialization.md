@@ -7,7 +7,10 @@ Up: [Serialization](Data/Serialization.md)
 ___
 System.Text.Json is a high-performance JSON framework o serialize and deserialize JSON data.
 
-## **Basic Requirements for Serializable Objects**:
+>[!Info]
+> Do not confuse with [Iserializable interface](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.iserializable?view=net-9.0)
+
+## Basic Requirements for Serializable Objects:
 
 - Objects must have a public parameterless constructor (default constructor)
 - Properties must have public get and set accessors

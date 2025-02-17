@@ -5,7 +5,7 @@ tags:
 ---
 Up: [keyword](keyword.md)
 ___
- in an [[unsafe]] context prevents variable to be moved by [Garbage Collector](Garbage%20Collector.md) and returns a [[Pointer types|pointer]] to that value.
+ in an [[unsafe]] context prevents variable to be moved by [Garbage Collector](Garbage%20Collector.md) and returns a [[Pointer type|pointer]] to that value.
  ```cs
  unsafe
 {
