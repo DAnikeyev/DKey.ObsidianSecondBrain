@@ -23,9 +23,8 @@ else
 }
  ```
 
-
 ## Thread Safety
-By deafault Lazy\<T> is thread safe.The Lazy<T> class uses a [[lock]]
+By deafault Lazy\<T> is thread safe. The Lazy<\T> class uses a [[lock]]
 # Links
 ```dataview
 LIST

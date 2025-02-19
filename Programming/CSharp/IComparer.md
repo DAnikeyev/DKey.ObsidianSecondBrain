@@ -7,6 +7,8 @@ Up: [Collection Interface](Collection%20Interface.md)
 ___
 ## Methods
 
+Is called in [Array](Array.md).Sort or [[List]].Sort method
+
 | Compare | Compares two objects and returns a value indicating whether one is less than, equal to, or greater than the other. |
 | ------- | ------------------------------------------------------------------------------------------------------------------ |
 |         |                                                                                                                    |

@@ -6,14 +6,17 @@ tags:
 Up: [Reference Type](Reference%20Type.md)
 ___
  An interface provides a contract. Any class, methods or struct that implements an interface must provide implementations for all the members of the interface. An interface may define static member or default implementation.
+ 
  Beginning with C# 11, an interface may define `static abstract` or `static virtual` members to declare that an implementing type must provide the declared members. Typically, `static virtual` methods declare that an implementation must define a set of overloaded methods.
+
+Unlike [Abstract class](Abstract%20class.md) Interaces can't have [Constructor](Constructor.md) or non-static [[Field]]
 ## Content
 - [Constant](Constant.md)
 - [Operator](CSharp%20Operator.md)
 - [static](static.md) [Constructor](Constructor.md)
 - [Method](Method.md)
 - [Property](Property.md)
-- Nested types
+- [[Nested types]]
 - [CSharp Indexer](CSharp%20Indexer.md)
 - [[Event]]
 ## Example
