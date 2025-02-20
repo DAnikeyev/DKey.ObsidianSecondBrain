@@ -6,7 +6,7 @@ tags:
 Up: [Value Type](Value%20Type.md)
 ___
 
-IntPtr is a sage type, but usually used in [[unsafe]] situation, like [Interoperability](Interoperability.md) scenarious() calling [unmanaged](Unmanaged.md) code)
+IntPtr is a safe type, but usually used in [[unsafe]] situation, like [Interoperability](Interoperability.md) scenarious() calling [unmanaged](Unmanaged.md) code)
 ```cs
 using System;
 

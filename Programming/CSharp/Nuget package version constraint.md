@@ -21,6 +21,9 @@ When project need specific range of libraries you can specify constraints like t
 
     <!-- Minimum version -->
     <PackageReference Include="Serilog" Version="2.*" />
+    
+    <!-- Exact version -->
+    <PackageReference Include="Serilog" Version="[2.2.0]" />
 
     <!-- Version range (inclusive) -->
     <PackageReference Include="NUnit" Version="[3.12.0, 3.13.0]" />
