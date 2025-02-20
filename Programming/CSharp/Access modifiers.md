@@ -2,7 +2,7 @@
 date_added: 2025-01-13
 tags: []
 ---
-Up: [Assembly](Assembly.md)
+Up: [Modifiers](Modifiers.md), [Assembly](Assembly.md)
 ___
 - [public](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public): Code in any assembly can access this type or member. The accessibility level of the containing type controls the accessibility level of public members of the type.
 - [private](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/private): Only code declared in the same `class` or `struct` can access this member.
