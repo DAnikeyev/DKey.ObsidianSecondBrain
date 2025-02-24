@@ -7,6 +7,9 @@ Up: [CSharp Statement](CSharp%20Statement.md)
 ___
 
 You use the `yield` statement in an [Iteration statement](Iteration%20statement.md) to provide the next value or signal the end of an iteration. The `yield` statement has the two following forms `return x` and `break`:
+
+yield turns method into a state machine.
+
 ```cs
 Console.WriteLine(string.Join(" ", TakeWhilePositive(new int[] {2, 3, 4, 5, -1, 3, 4})));
 // Output: 2 3 4 5

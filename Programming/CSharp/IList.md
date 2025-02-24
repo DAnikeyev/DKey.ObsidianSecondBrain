@@ -5,6 +5,7 @@ tags:
 ---
 Up: [Collection Interface](Collection%20Interface.md)
 ___
+Unlike [ICollection](ICollection.md) has an indexer and methods to manipulate the list. 
 ## Properties
 
 |   |   |

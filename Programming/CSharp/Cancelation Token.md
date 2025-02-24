@@ -3,9 +3,9 @@ date_added: 2025-01-30
 tags:
   - csharp
 ---
-Up: [[]]
+Up: [Asynchronous programming](Asynchronous%20programming.md)
 ___
- 
+
 # Links
 ```dataview
 LIST

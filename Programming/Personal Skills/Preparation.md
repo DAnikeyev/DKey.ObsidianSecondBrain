@@ -1,9 +1,9 @@
 ---
-date_added: 2025-02-24
+date_added: 2025-02-21
 tags:
-  - csharp
+  - skills
 ---
-Up: [Collection](Collection.md)
+Up: [[Learning]]
 ___
  
 # Links

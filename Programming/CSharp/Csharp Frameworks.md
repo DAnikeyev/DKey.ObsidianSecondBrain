@@ -1,9 +1,9 @@
 ---
-date_added: 2025-02-15
+date_added: 2025-02-24
 tags:
   - csharp
 ---
-Up: [[]]
+Up: [CSharp](CSharp.md)
 ___
  
 # Links

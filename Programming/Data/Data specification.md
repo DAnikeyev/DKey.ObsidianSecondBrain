@@ -1,11 +1,11 @@
 ---
 date_added: 2025-02-24
 tags:
-  - csharp
+  - data
 ---
-Up: [Collection](Collection.md)
+Up: [[Data]]
 ___
- 
+ Is a way to organize and narrow down the space of possibilities.
 # Links
 ```dataview
 LIST

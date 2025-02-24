@@ -12,6 +12,15 @@ service SearchService {
   rpc Search(SearchRequest) returns (SearchResponse);
 }
 ```
+
+## Stream
+is used for [gRPC](gRPC.md) to send and receive a stream of messages. 
+```ProtoBuf
+service Service{
+rpc updload(stream Data) returns (google.protobuf.Empty);
+rpc download(google.protobuf.Empty) returns (stream Data); 
+}
+```
 # Links
 ```dataview
 LIST

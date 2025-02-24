@@ -1,6 +1,7 @@
 ---
 date_added: 2025-02-19
-tags: []
+tags:
+  - csharp
 ---
 Up: [Declaration Statement](Declaration%20Statement.md)
 ___

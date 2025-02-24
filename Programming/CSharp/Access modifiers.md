@@ -1,6 +1,7 @@
 ---
 date_added: 2025-01-13
-tags: []
+tags:
+  - csharp
 ---
 Up: [Modifiers](Modifiers.md), [Assembly](Assembly.md)
 ___

@@ -10,6 +10,7 @@ ___
  type[] arrayName;
 ```
 
+Array.CreateInstance can be used to create arrays dynamically in runtime.
 Implements [[IEnumerable]] and [[ICollection]] and [[ILIst]] interfaces.
 
 ```cs
