@@ -17,6 +17,25 @@ Used in [Dictionary](Dictionary.md), [List](List.md) [LinkedList](LinkedList.md)
 |---|---|
 |[Equals(T)](https://learn.microsoft.com/en-us/dotnet/api/system.iequatable-1.equals?view=net-9.0#system-iequatable-1-equals\(-0\))|Indicates whether the current object is equal to another object of the same type.|
 
+## Example
+```cs
+public class ProductA : IEquatable<ProductA>
+{
+    public string Name { get; set; }
+    public int Code { get; set; }
+
+    public bool Equals(ProductA other)
+    {
+        if (other is null)
+            return false;
+
+        return this.Name == other.Name && this.Code == other.Code;
+    }
+
+    public override bool Equals(object obj) => Equals(obj as ProductA);
+    public override int GetHashCode() => (Name, Code).GetHashCode();
+}
+```
 # Links
 ```dataview
 LIST
