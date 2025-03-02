@@ -30,7 +30,7 @@ Others:
  - [[Namespace Alias Operator]]
  - [[Switch Operator]]
  - [[New Operator]]
- - [[Await Operator]]
+ - [[await]]
  - [[Default Operator]] 
  - [[Delegate Operator]]
  - NameOf Operator

@@ -5,7 +5,10 @@ tags:
 ---
 Up: [Reference Type](Reference%20Type.md)
 ___
-# Content
+
+As indicated earlier, all .NET classes are ultimately derived from System.Object. In fact, if you don’t
+specify a base class when you define a class, the compiler automatically assumes that it derives from Object.
+
 
 ## Methods
 

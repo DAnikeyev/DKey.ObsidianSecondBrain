@@ -6,6 +6,11 @@ tags:
 Up: [Other CSharp Features](Other%20CSharp%20Features.md)
 ___
  Encapsulation of readonly properties
+
+- **Class-based**: Anonymous types are always classes, not structs or any other type.
+- **Immutable**: Once created, the properties of an anonymous type cannot be changed.
+- **Read-only properties**: The properties are read-only and are automatically given public getters.
+- **Compiler-generated**: The compiler generates a class with the appropriate properties and overrides for `ToString()`, `Equals()`, and `GetHashCode()`. (Similar to [Record](Record.md))
  ```cs
  var v = new { Amount = 108, Message = "Hello" };
 
@@ -13,7 +18,12 @@ ___
 // statement to verify that their inferred types are int and string.
 Console.WriteLine(v.Amount + v.Message);
 ```
+
 Anonymous types are typically used in the [LINQ](LINQ)
+For example var keyword is used to create an anonymous type from returned "interface".
+```cs
+var people = new[] { new { Name = "Alice", Age = 30 }, new { Name = "Bob", Age = 25 } }; var names = people.Select(person => new { person.Name });
+```
 # Links
 ```dataview
 LIST

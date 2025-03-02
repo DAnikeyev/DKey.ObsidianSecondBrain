@@ -5,7 +5,7 @@ tags:
 ---
 Up: [CSharp Operator](CSharp%20Operator.md)
 ___
-For [[Nullable-reference type]] `!`  is used to suppress the warning that the value can be null. This is useful when you are sure that the value is not null.
+For [[Nullable Reference Type]] `!`  is used to suppress the warning that the value can be null. This is useful when you are sure that the value is not null.
 
 ```cs
 [TestMethod, ExpectedException(typeof(ArgumentNullException))]

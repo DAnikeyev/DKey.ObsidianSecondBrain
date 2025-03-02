@@ -37,7 +37,12 @@ If struct is declared as [Readonly](Readonly), all data members are read-only an
 - Passing struct by ==ref== allows to change struct without copying
 - If struct contains [Reference Type](Reference%20Type.md) members, it combines the behaviour of [Value Type](Value%20Type.md) and [Reference Type](Reference%20Type.md) so using such structs requires careful design to avoid unintended consequences.
 
+  
+For large data structures, using a class is often more efficient because:
 
+- It avoids the overhead of copying large amounts of data.
+- It leverages the heap's ability to handle larger memory allocations.
+- It benefits from the garbage collector's memory management capabilities.
 # Links
 
 ```

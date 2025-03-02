@@ -1,11 +1,11 @@
 ---
-date_added: 2025-02-21
+date_added: 2025-02-28
 tags:
-  - note
+  - skills
 ---
-Up: [Preparation](Preparation.md)
+Up: [Interview](Interview.md)
 ___
-
+ 
 # Links
 ```dataview
 LIST

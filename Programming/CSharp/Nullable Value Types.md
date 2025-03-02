@@ -5,7 +5,8 @@ tags:
 ---
 Up: [Value Type](Value%20Type.md)
 ___
- A _nullable value type_ `T?` represents all values of its underlying [Value Type](Value%20Type.md) `T`and an additional [[null]] value
+ A _nullable value type_ `T?` represents all values of its underlying [Value Type](Value%20Type.md) `T`and an additional [[null]] value. It usese Nullable<\T> struct with methods HasValue and Value.
+
 ## Lifted operators
 ```cs
 int? a = 10;

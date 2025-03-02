@@ -37,6 +37,8 @@ public class ReadOnlySampleCollection<T>(params IEnumerable<T> items)
 
 }
 ```
+
+
 ## Comparison with [Property](Property.md)
 
 | Property                                                                                                                                                                                  | Indexer                                                                                                                                                                                                 |
