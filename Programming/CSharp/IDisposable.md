@@ -12,6 +12,10 @@ ___
 
 >[!Warning]
 > It is a breaking change to add the [IDisposable](https://learn.microsoft.com/en-us/dotnet/api/system.idisposable) interface to an existing class. Because pre-existing consumers of your type cannot call [Dispose](https://learn.microsoft.com/en-us/dotnet/api/system.idisposable.dispose), you cannot be certain that unmanaged resources held by your type will be released.
+
+>[!Info]
+> IDisposable can be used with [Struct](Struct.md) but [Finalizer](Finalizer.md) cannot be used with Struct.
+
 ## Behaviour
  [Garbage Collector](Garbage%20Collector.md) does not call the Dispose method. It is the responsibility of the developer to call the Dispose method to release the resources.
 

@@ -23,6 +23,28 @@ else
 }
  ```
 
+ ```csharp
+ public class AllTracks {
+	private Song[] allSongs = new Song[10000];
+	public AllTracks()
+	{
+		//LoadAllSongs.
+		Console.WriteLine("Filling up the songs!");
+	}
+	}
+publicclass MediaPlayer
+{
+...
+private Lazy<AllTracks> allSongs = new Lazy<AllTracks>();
+	public AllTracks GetAllTracks()
+	{
+		// AllTracks is created when this method is called
+		return allSongs.Value;
+	}
+}
+
+ ```
+
 ## Thread Safety
 By deafault Lazy\<T> is thread safe. The Lazy<\T> class uses a [[lock]]
 # Links

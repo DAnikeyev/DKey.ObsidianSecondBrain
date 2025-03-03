@@ -7,6 +7,10 @@ Up: [Garbage Collector](Garbage%20Collector.md)
 ___
 Controls the system garbage collector, a service that automatically reclaims unused memory.
 
+Main methods:
+- [Collect()](https://learn.microsoft.com/en-us/dotnet/api/system.gc.collect?view=net-9.0#system-gc-collect): Forces an immediate garbage collection of all generations. You can specify GCCollection mode: Default, Forced, Optimized.
+- [SuppressFinalize(Object)](https://learn.microsoft.com/en-us/dotnet/api/system.gc.suppressfinalize?view=net-9.0#system-gc-suppressfinalize\(system-object\)): Requests that the common language runtime not call the finalizer for the specified object.
+- [WaitForPendingFinalizers()](https://learn.microsoft.com/en-us/dotnet/api/system.gc.waitforpendingfinalizers?view=net-9.0#system-gc-waitforpendingfinalizers): Suspends the current thread until the thread that is processing the queue of finalizers has emptied that queue.
 ## Properties
 
 |   |   |

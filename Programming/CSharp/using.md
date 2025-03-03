@@ -45,6 +45,28 @@ using (reader)
 ```
 
 but might throw ObjectDisposedException after using block.
+
+If [Exception](Exception.md) is thrown in the using block, the `Dispose` method is called before the exception is propagated.
+
+```cs
+using (var x = new Resource())
+{
+    throw new Exception();
+}
+// Equivalent to:
+Resource x = new Resource();
+try
+{
+    throw new Exception();
+}
+finally
+{
+    if (x != null)
+    {
+        ((IDisposable)x).Dispose();
+    }
+}
+```
 # Links
 ```dataview
 LIST
