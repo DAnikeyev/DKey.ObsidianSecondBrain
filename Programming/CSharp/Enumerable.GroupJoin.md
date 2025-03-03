@@ -20,7 +20,7 @@ This method is implemented by using deferred execution. The immediate return val
 ```cs
 var query =
         people.GroupJoin(pets,
-                         person => person,
+                         person => person.Name,
                          pet => pet.Owner,
                          (person, petCollection) =>
                              new
