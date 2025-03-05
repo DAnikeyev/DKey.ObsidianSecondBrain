@@ -16,12 +16,15 @@ ___
 	- неправильный источник? Должно быть книга 2. 
 	- AddMemoryPressure() неправильное описание метода, аргумент - не уровень срочности, а количество unmanaged байтов в процессе.
 	- "Переопределять метод Finalize() в типах структур не допускается. Это вполне логичное ограничение, поскольку структуры являются типами значений, которые изначально никогда не размещаются в куче и, следовательно, никогда не подвергаются сборке мусора."
-
+- AppDomain
+	- Unload method is obsolete, use Abort Instead.
+	- Synchronisation Attribute is obsolete, use locks/monitor/ThreadSheduler SyncContext instead
 ## Темы которые менее полезны чем список ниже и присутствуют в МК (В т.ч. опосредованно):
 - Constrained Execution Region
 - Code contracts
+## Темы, которые более полезны чем список выше и отсутствуют в МК:
 
-## ## которые более полезны чем список выше и отсутствуют в МК:
+ - Synchronisation primitives
 # Links
 ```dataview
 LIST
