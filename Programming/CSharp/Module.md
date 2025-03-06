@@ -39,6 +39,30 @@ public class Program {
 class Class1 {
 }
 ```
+
+It's very uncommon to have more than one module in assembly from C#, usually it's done by other languages like C++/CLI. 
+ But here how you can do that:
+
+1. **Compile Each Source File into a Module:**
+    
+    - Use the C# compiler to compile each source file into a module. This is done using the `/target:module` option.
+    
+    ```bash
+    csc /target:module /out:Module1.netmodule Module1.cs
+    csc /target:module /out:Module2.netmodule Module2.cs
+    ```
+    
+    This will produce `Module1.netmodule` and `Module2.netmodule`.
+    
+2. **Link Modules into a Single Assembly:**
+    
+    - Use the C# compiler again to link the modules into a single assembly.
+    
+    ```bash
+    csc /out:MyAssembly.dll /target:library Module1.netmodule Module2.netmodule
+    ```
+    
+    This will produce `MyAssembly.dll` containing both modules.
 # Links
 ```dataview
 LIST

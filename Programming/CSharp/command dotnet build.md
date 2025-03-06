@@ -29,7 +29,7 @@ dotnet build -h|--help
 dotnet build MyProject.csproj -c Release -f net7.0 --arch x64 -o ./buildOutput
 ```
 
-## Steps
+## Steps of [Compilation process](Compilation%20process.md)
 1. ︎• Discovery of the Solution File:  
     • The CLI first detects that you’re in a folder with a .sln file. If you simply run dotnet build without specifying a project file, it will assume you want to build the solution.  
     • The solution file acts as an aggregator that references all the individual project files.

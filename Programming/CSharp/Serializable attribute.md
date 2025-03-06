@@ -3,7 +3,7 @@ date_added: 2025-02-27
 tags:
   - csharp
 ---
-Up: [Common attribute](Common%20attribute.md)
+Up: [Common attributes](Common%20attributes.md)
 ___
  Indicates that a class can be serialized using binary or XML serialization. This class cannot be inherited.
 

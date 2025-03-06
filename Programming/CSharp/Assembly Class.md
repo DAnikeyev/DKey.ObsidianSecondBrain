@@ -7,6 +7,8 @@ Up: [Reflection](Reflection.md)
 ___
  Represents an [Assembly](Assembly.md), which is a reusable, versionable, and self-describing building block of a common language runtime application.
 
+Assembly.Load() method is used to load an assembly into the current application domain dynamically. You can use [Activator](Activator.md) than to create instance of the class.
+
 
 ## Example:
 ```cs
