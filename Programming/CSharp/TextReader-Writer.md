@@ -3,8 +3,11 @@ date_added: 2025-02-01
 tags:
   - csharp
 ---
-Up: [CSharp](CSharp.md)
+Up: [Stream](Stream.md)
 ___
+ Use [StreamReader-Writer](StreamReader-Writer.md) to read and write characters to a stream. 
+ Use [[String Reader-Writer]] to read and write strings to a stream.
+ 
  Implements [IDisposable](IDisposable.md). It's an abstract class for other ReaderWriters:
 ```cs
 using System.IO;

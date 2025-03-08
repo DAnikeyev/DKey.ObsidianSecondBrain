@@ -3,7 +3,7 @@ date_added: 2025-02-01
 tags:
   - csharp
 ---
-Up: [System.IO](System.IO.md)
+Up: [System.IO](System.IO.md) [File](CSharp/File.md)
 ___
  #### Properties
 
@@ -43,6 +43,40 @@ ___
     
     - Gets or sets the last write time of the file.
     - Example: `fileInfo.LastWriteTime` might return a `DateTime` object.
+## Methods
+ - AppendText Creates a [StreamWriter](StreamReader-Writer.md) that appends text to the file represented by this instance of the FileInfo class.
+```cs
+using (StreamWriter writer = fileInfo.AppendText()) 
+{ 
+	// Write some text to the file 
+	writer.WriteLine("This is a new line of text."); 
+	writer.WriteLine("Appending another line.");
+}
+```
+
+- Create - creates a file and returns a FileStream object that provides read/write access to the file.
+```cs
+FileInfo fileInfo = new FileInfo(filePath);
+// Use the Create method to create or overwrite the file 
+using (FileStream fileStream = fileInfo.Create()) 
+{
+	// Convert the text to a byte array
+	byte[] textBytes = System.Text.Encoding.UTF8.GetBytes(text);
+	// Write the byte array to the file 
+	fileStream.Write(textBytes, 0, textBytes.Length);
+}
+```
+
+- CreateText Creates a StreamWriter that writes a new text file.
+```cs
+using (StreamWriter writer = fileInfo.CreaeteText()) 
+{ 
+	// Write some text to the file 
+	writer.WriteLine("This is a new line of text."); 
+	writer.WriteLine("Appending another line.");
+}
+```
+
 # Links
 ```dataview
 LIST

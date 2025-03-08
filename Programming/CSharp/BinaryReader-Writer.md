@@ -3,10 +3,12 @@ date_added: 2025-02-01
 tags:
   - csharp
 ---
-Up: [System.IO](System.IO.md)
+Up: [System.IO](System.IO.md) [TextReader-Writer](TextReader-Writer.md)
 ___
+Writes primitive types in binary to a stream and supports and reading writing strings in a specific encoding.
+
  ```cs
- using System;
+using System;
 using System.IO;
 using System.Text;
 

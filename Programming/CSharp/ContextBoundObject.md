@@ -8,7 +8,7 @@ ___
 When multiple threads try to access methods of the `ContextBoundObject`, the synchronization context ensures that only one thread can execute a method at a time. Other threads are blocked until the current thread finishes its execution.
 
 >[!Info]
-> You have to set [synchronisation attribute](synchronisation%20attribute.md) and inherite ContextBoundObject
+> You have to set [Synchronisation attribute](Synchronisation%20attribute.md) and inherite ContextBoundObject
 
 It works like automatic [[lock]]
 

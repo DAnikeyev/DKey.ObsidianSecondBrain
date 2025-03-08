@@ -109,6 +109,40 @@ public class XmlSerializationExample
     }
 }
  ```
+
+### Serializing collection:
+ ```csharp
+ [Serializable, XmlRoot(Namespace = "http://www.MyCompany.com")]
+public class JamesBondCar : Car
+{
+    public JamesBondCar(bool skyWorthy, bool seaworthy)
+    {
+        canFly = skyWorthy;
+        canSubmerge = seaworthy;
+    }
+
+    // XmlSerializer requires a default constructor!
+    public JamesBondCar() { selectedText }
+}
+
+static void SaveListOfCars()
+{
+    // Save a list of JamesBondCar objects.
+    List<JamesBondCar> myCars = new List<JamesBondCar>();
+    myCars.Add(new JamesBondCar(true, true));
+    myCars.Add(new JamesBondCar(true, false));
+    myCars.Add(new JamesBondCar(false, true));
+    myCars.Add(new JamesBondCar(false, false));
+
+    using (Stream fStream = new FileStream("CarCollection.xml",
+        FileMode.Create, FileAccess.Write, FileShare.None))
+    {
+        XmlSerializer xmlFormat = new XmlSerializer(typeof(List<JamesBondCar>));
+        xmlFormat.Serialize(fStream, myCars);
+    }
+    Console.WriteLine("=> Saved list of cars!");
+}
+ ```
 # Links
 ```dataview
 LIST

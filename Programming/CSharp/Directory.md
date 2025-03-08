@@ -6,6 +6,27 @@ tags:
 Up: [System.IO](System.IO.md)
 ___
  Exposes static methods for creating, moving, and enumerating through directories and subdirectories. This class cannot be inherited.
+
+| Method                                              | Description                                                                                             |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `CreateDirectory(string path)`                      | Creates all directories and subdirectories in the specified path.                                       |
+| `Delete(string path)`                               | Deletes an empty directory from a specified path.                                                       |
+| `Delete(string path, bool recursive)`               | Deletes the specified directory and, if specified, its subdirectories and files.                        |
+| `Exists(string path)`                               | Determines whether the given path refers to an existing directory.                                      |
+| `GetFiles(string path)`                             | Returns the names of files in the specified directory.                                                  |
+| `GetFiles(string path, string searchPattern)`       | Returns the names of files that match the specified search pattern in the specified directory.          |
+| `GetDirectories(string path)`                       | Returns the names of subdirectories in the specified directory.                                         |
+| `GetDirectories(string path, string searchPattern)` | Returns the names of subdirectories that match the specified search pattern in the specified directory. |
+| `GetFileSystemEntries(string path)`                 | Returns an array of file system entries (files and directories) in the specified path.                  |
+| `GetCurrentDirectory()`                             | Gets the current working directory of the application.                                                  |
+| `SetCurrentDirectory(string path)`                  | Sets the application's current working directory to the specified path.                                 |
+| `GetParent(string path)`                            | Retrieves the parent directory of the specified path.                                                   |
+| `Move(string sourceDirName, string destDirName)`    | Moves a file or a directory and its contents to a new location.                                         |
+| `EnumerateFiles(string path)`                       | Returns an enumerable collection of file names in a specified directory.                                |
+| `EnumerateDirectories(string path)`                 | Returns an enumerable collection of directory names in a specified directory.                           |
+| `EnumerateFileSystemEntries(string path)`           | Returns an enumerable collection of file system entries in a specified directory.                       |
+
+
 ### Example
  ```csharp
  using System;
