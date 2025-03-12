@@ -52,6 +52,18 @@ While expecting a certain structure, XML can be validated against a schema.
 </friendList>
 ```
 
+### Comments
+```XML
+	<!-- This is a comment -->
+```
+
+### CDATA
+
+**CDATA sections** may occur anywhere character data may occur; they are used to escape blocks of text containing characters which would otherwise be recognized as markup. CDATA sections begin with the string " `<![CDATA[` " and end with the string " `]]>` "
+```XML
+  <![CDATA[This is a CDATA section]]>
+```
+
 # Links
 ```dataview
 LIST

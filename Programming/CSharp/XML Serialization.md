@@ -3,7 +3,7 @@ date_added: 2025-02-03
 tags:
   - csharp
 ---
-Up: [Serialization](CSharp/Serialization.md)
+Up: [Serialization](CSharp/Serialization.md) [Working with XML](Working%20with%20XML.md)
 ___
 ## **Required for XML Serialization:**
 
