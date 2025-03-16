@@ -3,7 +3,7 @@ date_added: 2024-11-13
 tags:
   - web
 ---
-Up: [[Web]]
+Up: [[Web/Web]]
 ___
  
 # Links

@@ -90,10 +90,47 @@ catch(Exception exc)
 ```
 
 ## Delay
+## ContinueWith
+
+allows you to specify a continuation task that will run after a preceding task has completed.
+
+TaskContinuationOptions.ExecuteSynchronously allows you to run the continuation task on the same thread that the antecedent task completed on.
+
+TaskContinuationOptions.OnlyOnRanToCompletion specifies that the continuation task should only run if the antecedent task completed successfully.
+
+```cs
+class Program
+{
+    static void Main()
+    {
+        // Create an initial task
+        Task<int> initialTask = Task.Run(() =>
+        {
+            Console.WriteLine("Initial task is running...");
+            // Simulate some work
+            Task.Delay(1000).Wait();
+            return 42; // Return a result
+        });
+
+        // Create a continuation task
+        Task continuationTask = initialTask.ContinueWith((antecedent) =>
+        {
+            // This code runs after the initial task completes
+            Console.WriteLine("Continuation task is running...");
+            Console.WriteLine($"Result from initial task: {antecedent.Result}");
+        });
+
+        // Wait for the continuation task to complete
+        continuationTask.Wait();
+
+        Console.WriteLine("All tasks completed.");
+    }
+}
+```
 
 ## Configure.Await
 
-Everything after await keyword is a continuation task continuing in the original thread if argument is true. In UI we can't update UI element from different thread an the exception will be thrown. In libraries you want to use false to automate optimizations and avoid deadlocks when using Task.Wait because it will block the thread.
+Everything after await keyword is a continuation task continuing in the original thread if argument is true. In UI we can't update UI element from different thread  the exception will be thrown. In libraries you want to use false to automate optimizations and avoid deadlocks when using Task.Wait because it will block the thread.
 
 ```cs
 public async Task LoadDataAsync()
@@ -120,8 +157,16 @@ private void UpdateUI(string data)
 
 ## Task.Wait
 
-`Task.Wait` is a blocking call. When you call `Wait` on a `Task`, it blocks the calling thread until the task has completed. This means that the thread that calls `Wait` cannot do anything else until the task finishes.
+`Task.Wait` is a blocking call. When you call `Wait` on a `Task`, it blocks the calling thread until the task has completed. This means that the thread that calls `Wait` cannot do anything else until the task finishes. 
 
+>[!Info]
+> If the task hasn't start yet caller thread could be used to run the task. Might lead to [Deadlock](Deadlock.md)
+
+
+>[!Info]
+> TaskCreationOptions is used to specify the behavior of the task. For example TaskCreationOptions.LongRunning is used to specify that the task will be long running.
+
+```cs
 # Links
 ```dataview
 LIST

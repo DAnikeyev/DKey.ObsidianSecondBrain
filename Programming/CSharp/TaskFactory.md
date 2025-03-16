@@ -5,6 +5,15 @@ tags:
 ---
 Up: [[Task]]
 ___
+TaskFactory can be used to have 1 setup for tasks:
+```cs
+vartf = new TaskFactory<Int32>(cts.Token,
+TaskCreationOptions.AttachedToParent,
+TaskContinuationOptions.ExecuteSynchronously,
+TaskScheduler.Default);
+tf.StartNew(() => Sum(cts.Token, 10000))
+```
+
 Use Task.Run() for immediate running starting from Framework 4.5 instead of StartNew.
 Use ContinueWhenAll() to run a continuation task after all tasks have completed.
 Use ContinueWhenAny() to run a continuation task after any task has completed.

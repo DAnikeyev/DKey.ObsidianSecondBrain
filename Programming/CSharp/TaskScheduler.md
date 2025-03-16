@@ -28,7 +28,17 @@ TaskScheduler is a class in C# that manages how and when tasks are executed. It'
  }
  ```
 
- ```
+```cs
+private readonly TaskScheduler m_syncContextTaskScheduler =
+TaskScheduler.FromCurrentSynchronizationContext();
+
+//Passing as an argument allows task to bec completed on the same sync c otext for example for UI updates
+t.ContinueWith(task => Text = "Result: " + task.Result,
+CancellationToken.None,
+TaskContinuationOptions.OnlyOnRanToCompletion,
+m_syncContextTaskScheduler);
+```
+
 # Links
 ```dataview
 LIST

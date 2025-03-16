@@ -3,7 +3,7 @@ date_added: 2024-11-24
 tags:
   - web
 ---
-Up: [Web](Web.md)
+Up: [Web](Web/Web.md)
 ___
  
 # Links

@@ -4,12 +4,17 @@ tags:
   - csharp
 ---
 Up: [[Thread]]
-___
+
 Provides a pool of threads that can be used to execute tasks, post work items, process asynchronous I/O, wait on behalf of other threads, and process timers.
 
 The threads in the managed thread pool are background threads. This means that a threadpool will not keep an application running after all foreground threads have exited.
 
 When [[Task]] perform something asynchronously by default the task is scheduled to run on a thread pool thread. 
+
+CLR created 1 thread pool per [Process](CSharp/Process.md) that populates as queries comes in based on availability of an unoccupied thread.
+
+You can set the minimum and maximum number of threads in the thread pool using the ThreadPool.SetMinThreads and ThreadPool.SetMaxThreads methods.
+
 
 1. **When to Use ThreadPool**:
 
@@ -66,6 +71,9 @@ public class Example
 //       Hello from the thread pool.
 //       Main thread exits.
 ```
+
+## References
+ 1. https://learn.microsoft.com/en-us/dotnet/framework/deployment/in-process-side-by-side-execution
 # Links
 ```dataview
 LIST

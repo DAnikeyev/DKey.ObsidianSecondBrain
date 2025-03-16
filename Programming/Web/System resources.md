@@ -13,7 +13,7 @@ ___
 - [Memory-mapped I/O](https://en.wikipedia.org/wiki/Memory-mapped_I/O "Memory-mapped I/O")
 - [Locks](https://en.wikipedia.org/wiki/Lock_\(computer_science\) "Lock (computer science)")
 - External [devices](https://en.wikipedia.org/wiki/Peripheral "Peripheral")
-- External memory or objects, such as memory managed in native code, from Java; or objects in the [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model "Document Object Model") (DOM), from [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
+- External memory or objects, such as memory managed in native code, from Java; or objects in the [Document Object Model](Document%20Object%20Model.md) (DOM), from [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
 
 ### General resources
 

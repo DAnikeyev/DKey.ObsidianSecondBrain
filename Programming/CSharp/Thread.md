@@ -6,7 +6,9 @@ tags:
 Up: [Asynchronous programming](Asynchronous%20programming.md)
 ___
 Thread class creates and controls a thread, sets its priority, and gets its status.
+Main methods are **Start, Sleep, Join, Priority, Interrupt, Abort, IsAlive, IsBackground,** **ManagedThreadId**, **ThreadState**.
 ## Usage
+Thread has a parameterized constructor that takes a `delegate void ParameterizedThreadStart(Object obj);` as an argument. 
 
 **Basic Thread Creation and Execution**
 ```cs

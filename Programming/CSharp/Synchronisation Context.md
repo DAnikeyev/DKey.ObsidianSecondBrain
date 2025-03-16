@@ -32,6 +32,41 @@ ___
 
 Current SyncronizationContext can be preserved for new [TaskScheduler](TaskScheduler.md) with method TaskScheduler.FromCurrentSynchronizationContext();
 
+It is part of [Thread Execution Context](Thread%20Execution%20Context.md) but it's does not “flow” across await points.
+
+
+## Post and Send
+- **Asynchronous Execution**: The `Post` method is used to queue a delegate for execution on the synchronization context asynchronously. This means that the method returns immediately, and the delegate is executed at some point in the future.
+    
+- **Usage**: It's typically used when you want to update the UI from a background thread without blocking the calling thread.
+    
+- **Example**:
+```cs
+SynchronizationContext context = SynchronizationContext.Current;
+
+// Assume this is called from a background thread
+context.Post(state =>
+{
+    // Update UI elements here
+    myLabel.Text = "Updated from background thread";
+}, null);
+```
+
+- **Synchronous Execution**: The `Send` method is used to dispatch a delegate to the synchronization context for synchronous execution. This means that the calling thread is blocked until the delegate has been executed.
+    
+- **Usage**: It's used when you need to ensure that a piece of code runs on the synchronization context and you need to wait for it to complete before continuing.
+    
+- **Example**:
+```cs
+SynchronizationContext context = SynchronizationContext.Current;
+
+// Assume this is called from a background thread
+context.Send(state =>
+{
+    // Update UI elements here
+    myLabel.Text = "Updated from background thread";
+}, null);
+```
 # Links
 ```dataview
 LIST

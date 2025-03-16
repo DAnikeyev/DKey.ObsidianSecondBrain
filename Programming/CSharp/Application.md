@@ -15,7 +15,7 @@ ___
     
 4. **ASP.NET Applications**: Web applications and services that run on a web server. ASP.NET provides a framework for building dynamic websites, web APIs, and web services.
     
-5. **Blazor Applications**: A modern web framework that allows developers to build interactive web UIs using C# instead of JavaScript. Blazor can run client-side in the browser via WebAssembly or server-side.
+5. **Blazor Applications**: A modern web framework that allows developers to build interactive web UIs using C# instead of [JavaScript](JavaScript.md). Blazor can run client-side in the browser via WebAssembly or server-side.
     
 6. **Xamarin Applications**: Mobile applications for iOS and Android, developed using C# and .NET. Xamarin allows for cross-platform mobile app development.
     

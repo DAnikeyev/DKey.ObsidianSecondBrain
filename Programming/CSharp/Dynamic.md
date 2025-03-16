@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Reference Type](Reference%20Type.md)
 ___
- dynamic type bypasses compile-time type checking. The `dynamic` type simplifies access to COM APIs such as the Office Automation APIs, to dynamic APIs such as IronPython libraries, and to the HTML Document Object Model (DOM)
+ dynamic type bypasses compile-time type checking. The `dynamic` type simplifies access to COM APIs such as the Office Automation APIs, to dynamic APIs such as IronPython libraries, and to the HTML [Document Object Model](Document%20Object%20Model.md) (DOM)
  Unlike [[Object]] has no problem with 
  ```cs
 dyn = dyn + 3;
