@@ -3,8 +3,26 @@ date_added: 2025-03-05
 tags:
   - csharp
 ---
-Up: [WaitHandle](WaitHandle.md)
+Up: [Synchronisation Primitives](Synchronisation%20Primitives.md) [WaitHandle](WaitHandle.md)
 ___
+Semaphore is a synchronization primitive that controls access to a resource pool by maintaining a count. Unlike a mutex (which allows only one thread in a critical section), a semaphore can allow multiple threads to access a limited number of resources concurrently.
+
+Counter-Based Access Control:
+
+- A semaphore has an internal counter that represents the number of available units/resources.
+- When a thread enters the semaphore (using WaitOne or Wait), the count decreases.
+- When the thread releases the semaphore (using Release), the count increases.
+- If a thread attempts to enter when the count is 0, it blocks until another thread releases the semaphore.
+
+• Types in C#/.NET:
+
+- Semaphore: The classic semaphore, which is a kernel object and can be used for inter-process synchronization if constructed with a name.
+- SemaphoreSlim: A lightweight alternative designed for synchronizing threads within a single process. It avoids some of the overhead associated with kernel objects.
+
+• Use Cases:
+
+- Controlling access to a pool of limited resources, such as a connection pool, limited hardware resources, or managing parallel tasks.
+- Limiting the number of concurrent operations (for example, capping the number of tasks that run simultaneously).
 ## Example
 ```cs
 using System;

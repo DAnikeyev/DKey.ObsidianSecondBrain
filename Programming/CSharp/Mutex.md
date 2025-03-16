@@ -12,7 +12,6 @@ Key Points to Remember:
 1. Always release the Mutex in a finally block to ensure it's released even if an exception occurs.
     
 2. Use Mutex when you need:
-    
     - Cross-process synchronization
     - Named synchronization objects
     - More complex synchronization scenarios
@@ -31,30 +30,30 @@ Key Points to Remember:
 ```cs
 using System;
 using System.Threading;
-using System.Threading.Tasks;
 
-public class SemaphoreExample
+class Program
 {
-    // Create a semaphore that allows up to 3 threads to access the resource simultaneously
-    private static SemaphoreSlim semaphore = new SemaphoreSlim(3, 3);
-    
-    public async Task AccessResourceAsync()
+    // Create a named mutex for inter-process synchronization; 
+    // if unnamed, it works only within the same process.
+    private static Mutex mutex = new Mutex(false, "Global\\MyUniqueMutexName");
+
+    static void Main()
     {
+        Console.WriteLine("Waiting to acquire the mutex...");
+        
+        // WaitOne() blocks until the mutex is acquired.
+        mutex.WaitOne();
+
         try
         {
-            // Wait until we can get access to the semaphore
-            await semaphore.WaitAsync();
-            
-            Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} entered critical section");
-            
-            // Simulate some work
-            await Task.Delay(1000);
+            Console.WriteLine("Mutex acquired. Entering critical section.");
+            // Critical section: Place your thread-safe code here.
+            Thread.Sleep(2000);  // Simulate work by sleeping for 2 seconds.
         }
         finally
         {
-            // Always release the semaphore when done
-            semaphore.Release();
-            Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} exited critical section");
+            Console.WriteLine("Exiting critical section and releasing mutex.");
+            mutex.ReleaseMutex();
         }
     }
 }
