@@ -3,10 +3,16 @@ date_added: 2025-03-17
 tags:
   - csharp
 ---
-Up: [Synchronisation Primitives](Synchronisation%20Primitives.md)
+Up: [Synchronisation Primitives](Synchronisation%20Primitives.md) [EventWaitHandle](EventWaitHandle.md)
 ___
 
 AutoResetEvent and ManualResetEvent are synchronization primitives provided by .NET that are used to allow threads to communicate with each other by signaling events.
+
+  
+• Key Methods:  
+  – WaitOne(): Blocks the current thread until the ManualResetEvent is in the signaled state. Overloads allow specifying a timeout period.  
+  – Set(): Signals the event, releasing all waiting threads. The ManualResetEvent remains signaled, so any threads that call WaitOne after Set will not block until Reset is called.  
+  – Reset(): Manually resets the event to the non-signaled state, causing subsequent calls to WaitOne to block until the event is signaled again.
 
 ────────────────────────────── AutoResetEvent
 

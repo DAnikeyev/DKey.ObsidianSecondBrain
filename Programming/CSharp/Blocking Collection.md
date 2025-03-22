@@ -25,6 +25,10 @@ Useful for implementing [Producer-Consumer Pattern](Producer-Consumer%20Pattern.
 >[!Info]
 > BlockingCollection<\T> implements [IDisposable](IDisposable.md)
 
+>[!Warning]
+> Consumer thread will be blocked if collection is empty.
+> Producer thread will be blocked if collection is full.
+
 
 # Links
 ```dataview

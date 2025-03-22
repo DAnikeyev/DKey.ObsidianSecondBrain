@@ -69,7 +69,7 @@ The `<operator>` describes the relationship between the property and the value:
 
 
 ## Example
-```cs
+```sh
 dotnet test --filter FullyQualifiedName~MyNamespace.MyClass.MyTestMethod
 
 dotnet test --filter Name=MyTestMethod
@@ -79,8 +79,9 @@ dotnet test --filter Category=MyTestCategory & FullyQualifiedName~MyNamespace.My
 
 ```
 
-```
-
+To run with console output
+```sh
+dotnet test --filter Name~TestNameSubstring --logger "console;verbosity=detailed"
 ```
 
 # Links

@@ -7,7 +7,9 @@ Up: [[Concurrent collection]]
 ___
  Bags are useful for storing objects when ordering doesn't matter, and unlike sets, bags support duplicates.
  ConcurrentBag\<T> employs a multitude of mechanisms to minimize the need for synchronization.  For example, it maintains a local queue for each thread that accesses it, and under some conditions, a thread is able to access its local queue in a lock-free manner with little or no contention
- 
+
+Store object relative to the thread, try to peek objects from current thread collection first, and then steal them from other threads bags.
+
 ## Constructors
 
 |   |   |

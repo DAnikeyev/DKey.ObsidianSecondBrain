@@ -6,8 +6,10 @@ tags:
 Up: [WaitHandle](WaitHandle.md)
 ___
 A synchronization primitive that can also be used for interprocess synchronization.
-
-Key Points to Remember:
+### Key methods
+- `WaitOne()`: Blocks the current thread until the current instance receives a signal.
+- `ReleaseMutex()`: Releases the Mutex.
+### Key Points to Remember:
 
 1. Always release the Mutex in a finally block to ensure it's released even if an exception occurs.
     
@@ -16,7 +18,6 @@ Key Points to Remember:
     - Named synchronization objects
     - More complex synchronization scenarios
 3. Consider using `lock` statement instead of Mutex when:
-    
     - You only need synchronization within the same process
     - You want simpler syntax
     - Performance is critical (lock is faster than Mutex)

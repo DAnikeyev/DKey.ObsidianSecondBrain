@@ -9,29 +9,110 @@ Is a lock free method to update collection.
 
 Implementation using `intrinsic` attribute of [[CLR]] to make sure operations inside are atomic
 ```cs
-//Linked list push example
+//Push example
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
-public void Push(T item)
+// A simple node for the linked list.
+public class Node
 {
-	SpinWait spin = default;
-	Node node = new (item);
-	node._next=  head;
+    public int Value;
+    public Node Next;
 
-	while (Interlocked.CompareExchange (ref _head, node, node_next != node._next)
-	{
-		spin.SpinOnce(sleep1Threshold: -1);
-		node._next = head;
-	}
+    public Node(int value)
+    {
+        Value = value;
+        Next = null;
+    }
 }
-		   
-[AtomicPlease]
- public T CompareExchange<t>(ref T location, T value, T comparand)
- {
-	 var currentValue = location;
-	 if(Equals(currentValue, comparand))
-		 location = value;
-	 return current Value;
- }
+
+// A lock-free concurrent linked list implementation.
+public class ConcurrentLinkedList
+{
+    private volatile Node head;
+
+    public ConcurrentLinkedList()
+    {
+        head = null;
+    }
+
+    // Adds a new node with the given value at the end of the list using a CAS loop.
+    public void Add(int value)
+    {
+        Node newNode = new Node(value);
+        // Create a SpinWait instance for yielding the thread between unsuccessful CAS attempts.
+        SpinWait spin = new SpinWait();
+
+        while (true)
+        {
+            // If the list is empty, try to atomically set the head.
+            if (head == null)
+            {
+                if (Interlocked.CompareExchange(ref head, newNode, null) == null)
+                {
+                    return; // Successfully added as the first node.
+                }
+                // If unsuccessful, yield and retry.
+                spin.SpinOnce();
+            }
+            else
+            {
+                // Traverse the list to locate the last node.
+                Node tail = head;
+                while (true)
+                {
+                    Node next = tail.Next;
+                    if (next == null)
+                    {
+                        // Attempt to attach newNode to the end of the list.
+                        if (Interlocked.CompareExchange(ref tail.Next, newNode, null) == null)
+                        {
+                            return; // Successfully added newNode.
+                        }
+                        // If CAS failed, yield briefly and retry attaching at this position.
+                        spin.SpinOnce();
+                    }
+                    else
+                    {
+                        tail = next;
+                        // Optionally reset the spin counter as we progress.
+                        spin.Reset();
+                    }
+                }
+            }
+        }
+    }
+
+    // Utility method to print the list.
+    public void PrintList()
+    {
+        Node current = head;
+        while (current != null)
+        {
+            Console.Write(current.Value + " -> ");
+            current = current.Next;
+        }
+        Console.WriteLine("null");
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        ConcurrentLinkedList list = new ConcurrentLinkedList();
+        
+        // Use TPL's Parallel.For to simulate multiple threads concurrently adding nodes.
+        Parallel.For(0, 100, i =>
+        {
+            list.Add(i);
+        });
+
+        // Print the final list.
+        list.PrintList();
+    }
+}
 ```
 # Links
 ```dataview

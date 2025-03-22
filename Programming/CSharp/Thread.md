@@ -57,6 +57,11 @@ thread.Join();
 bool isAlive = thread.IsAlive;
 ```
 
+>[!Info]
+> Thread.Sleep(0) is used to yield the processor to other threads of the same or higher priority. It is a way to give other threads a chance to run.
+> Thread.Sleep(1) explicitly requests a sleep (even if brief) period
+
+
 ## Constructors
 
 | [Thread(ParameterizedThreadStart, Int32)](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.-ctor?view=net-9.0#system-threading-thread-ctor(system-threading-parameterizedthreadstart-system-int32)) | Initializes a new instance of the [Thread](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread?view=net-9.0) class, specifying a delegate that allows an object to be passed to the thread when the thread is started and specifying the maximum stack size for the thread. |

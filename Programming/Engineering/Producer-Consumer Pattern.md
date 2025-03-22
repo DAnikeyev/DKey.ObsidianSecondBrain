@@ -11,6 +11,8 @@ Shared memory access for multiple producers or consumers should be managed using
  - thread locks
  - lock-free thread safe operations
  - other ways of orchestrating like signaling with semaphores or volatile flags
+
+Represented in C# by [IProducerConsumerCollection](IProducerConsumerCollection.md)
 # Links
 ```dataview
 LIST

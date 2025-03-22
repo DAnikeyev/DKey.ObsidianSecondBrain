@@ -266,6 +266,54 @@ Asterisks
 ___
 
 Underscores
+### Callout types
+1. `>[!note]` - General notes.
+2. `>[!info]` - Information.
+3. `>[!tip]` - Tips or helpful hints.
+4. `>[!success]` - Success messages.
+5. `>[!question]` - Questions or prompts for further thought.
+6. `>[!warning]` - Warnings about potential issues.
+7. `>[!failure]` - Failure or error messages.
+8. `>[!danger]` - Dangerous or critical warnings.
+9. `>[!bug]` - Bug reports or issues.
+10. `>[!example]` - Examples or illustrations.
+11. `>[!quote]` - Quotes or citations.
+12. `>[!abstract]` - Abstracts or summaries.
+13. `>[!summary]` - Summaries or conclusions.
+14. `>[!tldr]` - "Too long; didn't read" summaries.
+15. `>[!important]` - Important information.
+16. `>[!caution]` - Cautionary notes.
+>[!note] - General notes.
+
+>[!info] - Information.
+
+>[!tip] - Tips or helpful hints.
+
+>[!success] - Success messages.
+
+>[!question] - Questions or prompts for further thought.
+
+>[!warning] - Warnings about potential issues.
+
+>[!failure] - Failure or error messages.
+
+>[!danger] - Dangerous or critical warnings.
+
+>[!bug] - Bug reports or issues.
+
+>[!example] - Examples or illustrations.
+
+>[!quote] - Quotes or citations.
+
+>[!abstract] - Abstracts or summaries.
+
+>[!summary] - Summaries or conclusions.
+
+>[!tldr] - "Too long; didn't read" summaries.
+
+>[!important] - Important information.
+
+>[!caution] - Cautionary notes.
 # Links
 ```dataview
 LIST

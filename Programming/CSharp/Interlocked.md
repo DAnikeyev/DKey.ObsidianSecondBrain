@@ -7,7 +7,23 @@ Up: [Synchronisation Primitives](Synchronisation%20Primitives.md)
 ___
  The Interlocked class is a part of the System.Threading namespace and provides atomic operations for variables shared across multiple threads. It helps implement lock-free synchronization by ensuring that operations like increment, decrement, addition, exchange, and compare-and-swap are performed atomically at the CPU level.
 
-Key Points:
+## Methods:
+• Interlocked.Increment/Decrement:  
+These methods atomically increment or decrement a specified variable. They are often used with counters that are accessed concurrently.
+
+• Interlocked.Add:  
+This method adds a specified value to a variable atomically and returns the new value.
+
+• Interlocked.Exchange:  
+This method sets a variable to a specified value and returns its original value. It’s useful when you need to replace a value in a thread-safe way.
+
+• Interlocked.CompareExchange:  
+This method compares two values for equality and, if they are equal, replaces one of the values. This is particularly useful for implementing lock-free algorithms.
+
+• Interlocked.Read:  
+This method atomically reads a 64-bit value, ensuring that the operation is safe on all platforms.
+
+### Key Points:
 
 • Atomic Operations:  
 – Methods like Increment, Decrement, Add, Exchange, and CompareExchange help to update shared variables atomically.  

@@ -6,7 +6,14 @@ tags:
 Up: [Synchronisation Primitives](Synchronisation%20Primitives.md)
 ___
 
-Encapsulates operating system-specific objects that wait for exclusive access to shared resources.
+Encapsulates operating system-specific objects that wait for exclusive access to shared resources. It is abstract class with methods:
+
+ - `WaitOne()`  - Blocks the current thread until the current WaitHandle receives a signal.
+ - static `WaitAll()`  - Blocks the current thread until all the WaitHandle objects are in the signaled state.
+ - static `WaitAny()`  - Blocks the current thread until one of the WaitHandle objects receives a signal.
+ - `Set()`  - Sets the state of the event to signaled, allowing one or more waiting threads to proceed.
+You can use it as a static field or pass as a parameter to a method.
+
  ```cs
 public sealed class App
 {

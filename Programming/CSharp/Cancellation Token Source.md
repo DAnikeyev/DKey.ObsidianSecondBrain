@@ -8,6 +8,20 @@ ___
 Create a [Cancellation Token](Cancellation%20Token.md) or signals to a [Cancellation Token](Cancellation%20Token.md) that it should be canceled.
 
 
+## Useful methods
+
+```csharp
+var token = cts.Token;
+cts.Cancel();
+cts.CancelAfter(TimeSpan.FromSeconds(5));
+cts.CancelAfter(new DateTime(2023, 10, 31, 12, 0, 0) - DateTime.Now);
+token.ThrowIfCancellationRequested();
+cts.Dispose();
+token.IsCancellationRequested
+```
+
+## Example
+
 ```cs
 using System;
 using System.Threading;

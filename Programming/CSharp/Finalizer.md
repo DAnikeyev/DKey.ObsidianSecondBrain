@@ -14,6 +14,7 @@ Finalizers (historically referred to as **destructors**) are used to perform any
 - Finalizers cannot be inherited or overloaded.
 - Finalizers cannot be called. They are invoked automatically.
 - A finalizer does not take modifiers or have parameters.
+- Error inside finalizer stops the finalizer and the finalizer of the base class is not called.
 ## Example
  ```csharp
  class Car

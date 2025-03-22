@@ -15,7 +15,8 @@ TaskScheduler is a class in C# that manages how and when tasks are executed. It'
 3. **Custom Schedulers**: You can create custom schedulers for specific needs (like UI thread execution).
  
  The default task scheduler provides work-stealing for load-balancing, thread injection/retirement for maximum throughput, and overall good performance. It should be sufficient for most scenarios.
-
+>[!Info]
+> Task infrustructure that resume the task when awaited results are ready uses TaskSheduler to resume execution on a [Synchronisation Context](Synchronisation%20Context.md) or [ThreadPool](ThreadPool.md)
  ```csharp
  public abstract class TaskScheduler{
      public static TaskScheduler Default { get; }

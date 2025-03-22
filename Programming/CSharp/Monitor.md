@@ -6,7 +6,13 @@ tags:
 Up: [Asynchronous programming](Asynchronous%20programming.md)
 ___
  Provides a mechanism that synchronizes access to objects. More functional then [[lock]]. 
- 
+## Key methods
+- `Enter(Object, Boolean)`: Enters a monitor, blocking the current thread until the current thread is granted the monitor. The method returns a Boolean value that indicates whether the current thread entered the monitor. This helps to release the lock if the thread is interrupted.
+- `Exit(Object)`: Exits a monitor. 
+-  `Pulse(Object)`: Notifies a thread in the waiting queue of a monitor that it can acquire the monitor. 
+- `PulseAll(Object)`: Notifies all waiting threads of a monitor that they can acquire the monitor.
+- `Wait(Object)`: Releases the lock on an object and blocks the current thread until it reacquires the lock. The method returns when the calling thread reacquires the lock.
+
  ```cs
  using System;
 using System.Threading;

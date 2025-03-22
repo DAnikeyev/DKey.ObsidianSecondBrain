@@ -72,6 +72,12 @@ public class Example
 //       Main thread exits.
 ```
 
+>[!Info]
+> One difference between `ThreadPool.QueueUserWorkItem` and `Task.Run` I recently realized is the way they handle exceptions.
+If an unhanded exception occurs inside `ThreadPool.QueueUserWorkItem` and not handled by global exception handler, it will crash parent thread. On the other hand, unhanded exceptions from `Task.Run` thread will not get propagated until you `await` or `Task.Wait`.
+>
+> So Use [Task](Processes/Task.md).Run istead
+
 ## References
  1. https://learn.microsoft.com/en-us/dotnet/framework/deployment/in-process-side-by-side-execution
 # Links
