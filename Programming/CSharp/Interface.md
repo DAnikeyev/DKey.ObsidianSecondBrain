@@ -2,10 +2,13 @@
 date_added: 2025-01-23
 tags:
   - csharp
+sr-due: 2025-04-04
+sr-interval: 3
+sr-ease: 259
 ---
 Up: [Reference Type](Reference%20Type.md)
 ___
- An interface provides a contract. Any class, methods or struct that implements an interface must provide implementations for all the members of the interface. An interface may define static member or default implementation.
+ An interface provides a contract. Any [Class](Class.md), [Record](Record.md) or [Struct](Struct.md) that implements an interface must provide implementations for all the members of the interface. An interface may define static member or default implementation.
  
  Beginning with C# 11, an interface may define `static abstract` or `static virtual` members to declare that an implementing type must provide the declared members. Typically, `static virtual` methods declare that an implementation must define a set of overloaded methods.
 

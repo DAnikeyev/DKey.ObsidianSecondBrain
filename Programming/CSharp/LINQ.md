@@ -2,10 +2,13 @@
 date_added: 2025-02-24
 tags:
   - csharp
+sr-due: 2025-03-29
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [Collection](Collection.md)
 ___
- Is an [[SQL]] - like syntax that converts to [Enumerable](Enumerable.md) calls
+Language Integrated Query is an [[SQL]] - like syntax that converts to [Enumerable](Enumerable.md) calls
 For example
 ```cs
 var data = new List<string>(){"a", "b", "c"};

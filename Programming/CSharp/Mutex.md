@@ -27,6 +27,9 @@ A synchronization primitive that can also be used for interprocess synchronizati
     - Using Mutex when a simpler lock would suffice
     - Not handling AbandonedMutexException
     - Creating too many Mutex objects (they are system-wide resources)
+
+>[!Info]
+> InitiallyOwned parameter is part of the `Mutex` constructor - If `true`, the calling thread is given ownership of the mutex immediately. This means that the thread does not need to call `WaitOne` to acquire the mutex initially.
 ## Example
 ```cs
 using System;

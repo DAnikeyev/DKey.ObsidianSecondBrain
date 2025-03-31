@@ -2,6 +2,9 @@
 date_added: 2025-02-03
 tags:
   - csharp
+sr-due: 2025-04-05
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [Serialization](CSharp/Serialization.md)
 ___

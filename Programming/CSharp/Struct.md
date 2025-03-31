@@ -2,6 +2,9 @@
 date_added: 2025-01-20
 tags:
   - csharp
+sr-due: 2025-04-05
+sr-interval: 4
+sr-ease: 287
 ---
 Up: [Value Type](Value%20Type.md)
 ___
@@ -39,14 +42,12 @@ If struct is declared as [Readonly](Readonly), all data members are read-only an
 
   
 For large data structures, using a class is often more efficient because:
-
 - It avoids the overhead of copying large amounts of data.
 - It leverages the heap's ability to handle larger memory allocations.
 - It benefits from the garbage collector's memory management capabilities.
 # Links
 
-```
-dataview
+```dataview
 LIST
 FROM [[]]
 WHERE contains(file.name, "")

@@ -14,6 +14,8 @@ Tasks:
 - ✅ Support for cancellation
 - ✅ Better performance due to thread pool usage
 - ✅ Composable with continuation support
+- ✅ Exception are captured in [System.AggregateException](System.AggregateException.md)
+
 
 
 Threads:
@@ -24,6 +26,7 @@ Threads:
 - ❌ More complex error handling
 - ❌ Manual resource management
 - ❌ No built-in cancellation support
+- ❌ Exceptions are not propogated
 ## Task uses
  ```cs
  // 1. For I/O-bound operations

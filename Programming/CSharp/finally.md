@@ -25,7 +25,7 @@ public async Task HandleRequest(int itemId, CancellationToken ct)
 }
 ```
 
-automaticaly release [lock], dispose [IEnumerator](IEnumerator.md) and [[using]] blocks as well as calls [Finalizer](Finalizer.md) of base class inside class destructor. Those constructions are wrapped into try-catch by compiler. 
+automaticaly release [lock](lock.md), dispose [IEnumerator](IEnumerator.md) and [[using]] blocks as well as calls [Finalizer](Finalizer.md) of base class inside class destructor. Those constructions are wrapped into try-catch by compiler. 
 # Links
 ```dataview
 LIST

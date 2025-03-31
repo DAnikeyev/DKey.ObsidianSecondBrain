@@ -5,7 +5,26 @@ tags:
 ---
 Up: [Collection Interface](Collection%20Interface.md)
 ___
- 
+## Properties
+
+|   |   |
+|---|---|
+|[Count](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1.count?view=net-8.0#system-collections-generic-icollection-1-count)|Gets the number of elements contained in the [ICollection<T>](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?view=net-8.0).|
+|[IsReadOnly](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1.isreadonly?view=net-8.0#system-collections-generic-icollection-1-isreadonly)|Gets a value indicating whether the [ICollection<T>](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?view=net-8.0) is read-only.|
+
+## Methods
+
+|   |   |
+|---|---|
+|[Add(T)](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1.add?view=net-8.0#system-collections-generic-icollection-1-add\(-0\))|Adds an item to the [ICollection<T>](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?view=net-8.0).|
+|[Clear()](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1.clear?view=net-8.0#system-collections-generic-icollection-1-clear)|Removes all items from the [ICollection<T>](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?view=net-8.0).|
+|[Contains(T)](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1.contains?view=net-8.0#system-collections-generic-icollection-1-contains\(-0\))|Determines whether the [ICollection<T>](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?view=net-8.0) contains a specific value.|
+|[CopyTo(T[], Int32)](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1.copyto?view=net-8.0#system-collections-generic-icollection-1-copyto\(-0\(\)-system-int32\))|Copies the elements of the [ICollection<T>](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?view=net-8.0) to an [Array](https://learn.microsoft.com/en-us/dotnet/api/system.array?view=net-8.0), starting at a particular [Array](https://learn.microsoft.com/en-us/dotnet/api/system.array?view=net-8.0) index.|
+|[GetEnumerator()](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator?view=net-8.0#system-collections-ienumerable-getenumerator)|Returns an enumerator that iterates through a collection.<br><br>(Inherited from [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-8.0))|
+|[Remove(T)](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1.remove?view=net-8.0#system-collections-generic-icollection-1-remove\(-0\))|Removes the first occurrence of a specific object from the [ICollection<T>](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?view=net-8.0).|
+
+## Extension Methods
+
 # Links
 ```dataview
 LIST

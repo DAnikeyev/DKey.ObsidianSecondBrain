@@ -96,7 +96,9 @@ class Program
     • Three threads wait on a ManualResetEvent.  
     • When manualEvent.Set() is called, it stays signaled, allowing all waiting threads to proceed.  
     • Calling manualEvent.Reset() later returns it to the unsignaled state, meaning subsequent threads will block until it is signaled again.
- 
+    
+>[!Info]
+> If many threads are in the WaitOne state, AutomaticResetEvent ensures only 1 WaitOne will work, ManualResetEvent can trigger many WaitOne until Reset is called.
 # Links
 ```dataview
 LIST

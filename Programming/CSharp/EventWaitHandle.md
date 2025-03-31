@@ -7,7 +7,7 @@ Up: [WaitHandle](WaitHandle.md)
 ___
 
 Represents a thread synchronization event.
-
+![](Pasted%20image%2020250324054513.png)
 # Links
 ```dataview
 LIST

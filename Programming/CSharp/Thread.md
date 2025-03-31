@@ -2,11 +2,16 @@
 date_added: 2025-01-29
 tags:
   - csharp
+sr-due: 2025-03-28
+sr-interval: 3
+sr-ease: 250
 ---
 Up: [Asynchronous programming](Asynchronous%20programming.md)
 ___
 Thread class creates and controls a thread, sets its priority, and gets its status.
 Main methods are **Start, Sleep, Join, Priority, Interrupt, Abort, IsAlive, IsBackground,** **ManagedThreadId**, **ThreadState**.
+
+CLR sets each thread it's own [Memory stack](Memory%20stack.md) with minimal size = 1MB.
 ## Usage
 Thread has a parameterized constructor that takes a `delegate void ParameterizedThreadStart(Object obj);` as an argument. 
 
@@ -24,7 +29,7 @@ Thread thread = new Thread(new ParameterizedThreadStart(WorkMethod));
 thread.Start(parameterObject);
 ```
 
-**Thread Sleep and Synchronization**
+**Thread Sleep and [Synchronisation](Synchronisation.md)
 ```cs
 // Pause execution for specified milliseconds
 Thread.Sleep(2000); // Pauses for 2 seconds

@@ -10,6 +10,123 @@ ___
 > 
 If you implement the [IConvertible](https://learn.microsoft.com/en-us/dotnet/api/system.iconvertible?view=net-9.0) interface, your implementation will be called automatically by the [ChangeType(Object, Type)](https://learn.microsoft.com/en-us/dotnet/api/system.convert.changetype?view=net-9.0#system-convert-changetype\(system-object-system-type\)) method if the [Object](https://learn.microsoft.com/en-us/dotnet/api/system.object?view=net-9.0) parameter is an instance of your implementing type and the [Type](https://learn.microsoft.com/en-us/dotnet/api/system.type?view=net-9.0) parameter is a common language runtime type.
 
+
+```cs
+using System;
+using System.Globalization;
+
+public class MyConvertibleClass : IConvertible
+{
+    private double value;
+
+    public MyConvertibleClass(double value)
+    {
+        this.value = value;
+    }
+
+    // Implement the ToDouble method
+    public double ToDouble(IFormatProvider provider)
+    {
+        return value;
+    }
+
+    // Implement other IConvertible methods as needed
+    public TypeCode GetTypeCode()
+    {
+        return TypeCode.Object;
+    }
+
+    public bool ToBoolean(IFormatProvider provider)
+    {
+        return value != 0;
+    }
+
+    public byte ToByte(IFormatProvider provider)
+    {
+        return Convert.ToByte(value);
+    }
+
+    public char ToChar(IFormatProvider provider)
+    {
+        throw new InvalidCastException("Conversion to char is not supported.");
+    }
+
+    public DateTime ToDateTime(IFormatProvider provider)
+    {
+        throw new InvalidCastException("Conversion to DateTime is not supported.");
+    }
+
+    public decimal ToDecimal(IFormatProvider provider)
+    {
+        return Convert.ToDecimal(value);
+    }
+
+    public short ToInt16(IFormatProvider provider)
+    {
+        return Convert.ToInt16(value);
+    }
+
+    public int ToInt32(IFormatProvider provider)
+    {
+        return Convert.ToInt32(value);
+    }
+
+    public long ToInt64(IFormatProvider provider)
+    {
+        return Convert.ToInt64(value);
+    }
+
+    public sbyte ToSByte(IFormatProvider provider)
+    {
+        return Convert.ToSByte(value);
+    }
+
+    public float ToSingle(IFormatProvider provider)
+    {
+        return Convert.ToSingle(value);
+    }
+
+    public string ToString(IFormatProvider provider)
+    {
+        return value.ToString(provider);
+    }
+
+    public object ToType(Type conversionType, IFormatProvider provider)
+    {
+        return Convert.ChangeType(value, conversionType, provider);
+    }
+
+    public ushort ToUInt16(IFormatProvider provider)
+    {
+        return Convert.ToUInt16(value);
+    }
+
+    public uint ToUInt32(IFormatProvider provider)
+    {
+        return Convert.ToUInt32(value);
+    }
+
+    public ulong ToUInt64(IFormatProvider provider)
+    {
+        return Convert.ToUInt64(value);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        MyConvertibleClass myValue = new MyConvertibleClass(123.45);
+
+        // Convert to different types using Convert.ChangeType
+        double doubleValue = (double)Convert.ChangeType(myValue, typeof(double));
+        int intValue = (int)Convert.ChangeType(myValue, typeof(int));
+
+        Console.WriteLine($"Double: {doubleValue}");
+        Console.WriteLine($"Int: {intValue}");
+    }
+}
+```
 ## Methods
 
 |   |   |

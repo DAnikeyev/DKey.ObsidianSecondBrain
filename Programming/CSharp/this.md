@@ -3,7 +3,7 @@ date_added: 2025-01-31
 tags:
   - csharp
 ---
-Up: [Object Access keyword](Object%20Access%20keyword.md)
+Up: [Object Access keyword](Object%20Access%20keyword.md) [keyword](keyword.md)
 ___
 ## Name clarification
 
@@ -29,7 +29,7 @@ public class Employee
  CalcTax(this);
  ```
 
-## Declaring indexers
+## Declaring [CSharp Indexer](CSharp%20Indexer.md)
 
  ```csharp
  public int this[int param]

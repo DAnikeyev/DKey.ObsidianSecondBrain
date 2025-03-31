@@ -15,6 +15,9 @@ Finalizers (historically referred to as **destructors**) are used to perform any
 - Finalizers cannot be called. They are invoked automatically.
 - A finalizer does not take modifiers or have parameters.
 - Error inside finalizer stops the finalizer and the finalizer of the base class is not called.
+
+## Disposing
+is better to use [IDisposable](IDisposable.md) pattern or leave [Garbage Collector](Garbage%20Collector.md) to do it's work for managed  resources. However some [[Managed resources]] can be disposed manually for faster release.
 ## Example
  ```csharp
  class Car

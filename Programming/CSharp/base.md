@@ -3,9 +3,13 @@ date_added: 2025-01-31
 tags:
   - csharp
 ---
-Up: [Object Access keyword](Object%20Access%20keyword.md)
+Up: [Object Access keyword](Object%20Access%20keyword.md) [keyword](keyword.md)
 ___
+The `base` keyword is used to access members of the base class from within a derived class. Use it if you want to:
 
+- Call a method on the base class that has been overridden by another method.
+    
+- Specify which base-class constructor should be called when creating instances of the derived class.
 ## Accessing constructor
 ```cs
 public class BaseClass

@@ -2,6 +2,9 @@
 date_added: 2025-01-31
 tags:
   - csharp
+sr-due: 2025-04-04
+sr-interval: 3
+sr-ease: 250
 ---
 Up: [Exception handling statements](Exception%20handling%20statements.md)
 ___

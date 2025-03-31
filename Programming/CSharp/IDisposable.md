@@ -2,6 +2,9 @@
 date_added: 2025-01-28
 tags:
   - csharp
+sr-due: 2025-04-04
+sr-interval: 3
+sr-ease: 250
 ---
 Up: [Fundamental Interfaces](Fundamental%20Interfaces.md)
 ___
@@ -33,9 +36,8 @@ If your class has:
 • Both Managed and Unmanaged Resources:  
 – Use the full IDisposable and finalizer (Dispose pattern) so you can safely free unmanaged resources in the finalizer and properly dispose managed resources when Dispose is called.
 
- 
 
-# Standart pattern
+# Standard pattern
 
 ```cs
 using System;

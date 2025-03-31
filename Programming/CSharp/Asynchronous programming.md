@@ -2,6 +2,9 @@
 date_added: 2025-01-29
 tags:
   - csharp
+sr-due: 2025-03-28
+sr-interval: 3
+sr-ease: 250
 ---
 Up: [CSharp Fundamentals](CSharp%20Fundamentals.md)
 ___

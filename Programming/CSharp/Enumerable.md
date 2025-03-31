@@ -2,6 +2,9 @@
 date_added: 2025-02-25
 tags:
   - csharp
+sr-due: 2025-03-29
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [[LINQ]]
 ___

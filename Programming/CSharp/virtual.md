@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Modifiers](Modifiers.md)
 ___
- The `virtual` keyword is used to modify a [method](Method.md), [property](Property.md), [CSharp Indexer](CSharp%20Indexer.md), or [event](Event.md) declaration and allow for it to be overridden in a derived class.
+ The `virtual` keyword is used to modify a [method](Method.md), [property](Property.md), [CSharp Indexer](CSharp%20Indexer.md), or [event](Event.md) declaration and allow for it to be [override](overridden) in a derived class.
 # Links
 ```dataview
 LIST

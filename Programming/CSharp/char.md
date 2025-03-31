@@ -6,6 +6,10 @@ tags:
 Up: [Value Type](Value%20Type.md)
 ___
 16 bit Value type that accepts literal, including hexadecimal `\x` , unicode `\u`  or escape sequence like '\n'.
+
+Is a [Struct](Struct.md)
+
+When you write `char a = 'a';` compiler (or runtime) handles the assignment in a convenient way.
  
  ```cs
  var chars = new[]

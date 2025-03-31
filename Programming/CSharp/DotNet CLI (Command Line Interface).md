@@ -3,6 +3,9 @@ date_added: 2024-12-24
 tags:
   - csharp
   - dotnet
+sr-due: 2025-03-28
+sr-interval: 3
+sr-ease: 250
 ---
 Up: [Framework .Net](Framework%20.Net.md)
 ___

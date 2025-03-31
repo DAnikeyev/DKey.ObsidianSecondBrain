@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Delegate](Delegate.md)
 ___
-  is a way to define an inline, unnamed method using the `delegate` keyword or [Lambda Expressions](Lambda%20Expressions.md)
+  is a way to define an inline, unnamed [Method](Method.md) using the `delegate` keyword or [Lambda Expressions](Lambda%20Expressions.md)
   
    ```csharp
 using System;
@@ -28,7 +28,7 @@ class Program
 }
  ```
 1. An anonymous method does not have access to the ref and out parameters of the method that defines them.
-2. An anonymous method cannot have local variables with the same names as the local variables of the enclosing method.
+2. An anonymous method cannot have local variables with the same names as the local [Captured variable](Captured%20variable.md) of the enclosing method.
 3. An anonymous method can access instance variables (or static variables) from the context of the enclosing class.
 4. An anonymous method can declare local variables with the same names as the members of the enclosing class (local variables have a separate context and hide external member variables).
 # Links

@@ -2,11 +2,14 @@
 date_added: 2025-01-26
 tags:
   - csharp
+sr-due: 2025-04-05
+sr-interval: 4
+sr-ease: 276
 ---
 Up: [Collection Interface](Collection%20Interface.md)
 ___
 
-To iterate over custom collection using foreach keyword, class should implement IEnumerable interface that requires GetEnumerator method implementation with Enumerator that has methods
+To iterate over custom collection using foreach keyword, class should implement [[IEnumerable]] interface that requires GetEnumerator method implementation with Enumerator that has methods
 - MoveNext()
 - Reset()
 - Current

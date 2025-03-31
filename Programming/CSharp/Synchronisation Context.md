@@ -6,7 +6,9 @@ tags:
 Up: [[Thread]]
 ___
  Provides the basic functionality for propagating a synchronization context in various synchronization models.
+ 
  The purpose of the synchronization model implemented by this class is to allow the internal asynchronous/synchronous operations of the common language runtime to behave properly with different synchronization models. This model also simplifies some of the requirements that managed applications have had to follow in order to work correctly under different synchronization environments.
+ 
  Can be used in Task to specify the synchronization context under which the continuation is executed.
  ```cs
  public class Example
@@ -34,6 +36,12 @@ Current SyncronizationContext can be preserved for new [TaskScheduler](TaskSched
 
 It is part of [Thread Execution Context](Thread%20Execution%20Context.md) but it's does not “flow” across await points.
 
+## Using in [Async-Await pattern](Async-Await%20pattern.md)
+**Capturing the Context**: When you [await](await.md) a [[Task]], the current `SynchronizationContext` (if any) is captured.
+After the awaited task completes, the continuation is posted back to the captured context using one of:
+- The captured `SynchronizationContext.Post` method
+- The captured `TaskScheduler.QueueTask` method
+- Or, if neither is available, the ThreadPool
 
 ## Post and Send
 - **Asynchronous Execution**: The `Post` method is used to queue a delegate for execution on the synchronization context asynchronously. This means that the method returns immediately, and the delegate is executed at some point in the future.

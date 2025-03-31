@@ -2,6 +2,9 @@
 date_added: 2025-03-05
 tags:
   - csharp
+sr-due: 2025-04-05
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [[Synchronisation]]
 ___

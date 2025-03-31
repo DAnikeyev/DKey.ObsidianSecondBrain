@@ -2,6 +2,9 @@
 date_added: 2025-01-30
 tags:
   - csharp
+sr-due: 2025-03-29
+sr-interval: 4
+sr-ease: 272
 ---
 Up: [CSharp](CSharp.md)
 ___

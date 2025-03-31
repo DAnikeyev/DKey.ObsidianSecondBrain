@@ -40,6 +40,18 @@ finally
 
 Starting from C# 13 and dotnet 9 a dedicated object instance of the [System.Threading.Lock](https://learn.microsoft.com/en-us/dotnet/api/system.threading.lock) type for best performance should be used.
 
+#### You can lock any [Reference Type](Reference%20Type.md)
+
+```cs
+lock (this) { ... }
+
+// or
+
+lock (typeof (Widget)) { ... }    // For protecting access to statics
+```
+
+The disadvantage of locking in this way is that you're not encapsulating the locking logic
+
 ## Example
 ```cs
 using System;

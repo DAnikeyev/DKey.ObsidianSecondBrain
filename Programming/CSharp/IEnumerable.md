@@ -2,14 +2,17 @@
 date_added: 2025-01-26
 tags:
   - csharp
+sr-due: 2025-03-29
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [Collection Interface](Collection%20Interface.md)
 ___
 
 ## Methods
 
-| [GetEnumerator()](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator?view=net-8.0#system-collections-ienumerable-getenumerator) | Returns an enumerator that iterates through a collection. |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [GetEnumerator()](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator?view=net-8.0#system-collections-ienumerable-getenumerator) | Returns an [IEnumerator](IEnumerator.md) that iterates through a collection. |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 
 ## Extension Methods
 

@@ -2,6 +2,9 @@
 date_added: 2025-01-12
 tags:
   - csharp
+sr-due: 2025-03-29
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [Reference Type](Reference%20Type.md)
 ___

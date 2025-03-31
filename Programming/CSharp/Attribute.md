@@ -2,11 +2,14 @@
 date_added: 2025-02-01
 tags:
   - csharp
+sr-due: 2025-04-04
+sr-interval: 3
+sr-ease: 253
 ---
 Up: [Reflection](Reflection.md), [Other CSharp Features](Other%20CSharp%20Features.md)
 ___
  Attributes add metadata to your program.
-- You can apply one or more attributes to entire assemblies, modules, or smaller program elements such as classes and properties.
+- You can apply one or more attributes to entire assemblies, [Module](Module.md), or smaller program elements such as classes and properties.
 - Attributes can accept arguments in the same way as methods and properties.
 - You can apply one or more attributes to entire assemblies, modules, or smaller program elements such as classes and properties.
 - Your program can examine its own metadata or the metadata in other programs by using [Reflection](Reflection.md).
@@ -36,7 +39,8 @@ Extenstion method Attribute.IsDefined() can be used to check fast if an attribut
 
 
 ### Processing attributes without executing constructor
-Might be useful for safety
+Might be useful for safety.
+Accessible through `CustomAttributeData.GetCustomAttributes` method
  ```csharp
  private static void ShowAttributes(MemberInfo attributeTarget) {
 	IList<CustomAttributeData> attributes =

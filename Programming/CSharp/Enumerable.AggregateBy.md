@@ -6,7 +6,7 @@ tags:
 Up: [Enumerable](Enumerable.md)
 ___
 
-Close to [Enumerable.Aggregate](Enumerable.Aggregate.md), but groups aggregator by key selector, so hav features of [[Enumerable.GroupBy]].
+Close to [Enumerable.Aggregate](Enumerable.Aggregate.md), but groups aggregator by key selector, so have features of [[Enumerable.GroupBy]].
 ```cs
 using System;
 using System.Collections.Generic;

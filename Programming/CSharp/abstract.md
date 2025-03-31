@@ -3,7 +3,7 @@ date_added: 2025-02-20
 tags:
   - csharp
 ---
-Up: [Modifiers](Modifiers.md)
+Up: [Modifiers](Modifiers.md) [keyword](keyword.md)
 ___
  The `abstract` modifier indicates that the thing being modified has a missing or incomplete implementation. The abstract modifier can be used with classes, methods, properties, indexers, and events.
 Abstract methods have the following features:

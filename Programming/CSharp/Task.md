@@ -2,6 +2,9 @@
 date_added: 2025-01-29
 tags:
   - csharp
+sr-due: 2025-03-29
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [Asynchronous programming](Asynchronous%20programming.md)
 ___
@@ -9,9 +12,8 @@ They represent units of asynchronous or concurrent work that can be started, awa
 
 - They encapsulate asynchronous operations, making it easy to write code that performs non-blocking work.
 - Tasks can return results using `Task<TResult>` and enable composition through continuations (e.g., using ContinueWith or [async](async.md) / [await](await.md)).
-- They integrate with cancellation tokens, exception handling, and progress reporting, simplifying the implementation of robust asynchronous workflows.
-- By default, tasks run on the thread pool; however, you can control task scheduling if needed.
-- 
+- They integrate with [Cancellation Token](Cancellation%20Token.md)s, exception handling via [System.AggregateException](System.AggregateException.md), and progress reporting, simplifying the implementation of robust asynchronous workflows.
+- By default, tasks run on the [ThreadPool](ThreadPool.md); however, you can control task scheduling if needed.
 
 >[!Info]
 > If throws an exception, the exception is thrown on the thread that is waiting for the task to complete. Exception is thrown when the task is awaited.

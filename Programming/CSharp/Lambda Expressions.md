@@ -2,6 +2,9 @@
 date_added: 2025-01-21
 tags:
   - csharp
+sr-due: 2025-04-05
+sr-interval: 4
+sr-ease: 275
 ---
 Up: [CSharp Operator](CSharp%20Operator.md)
 ___

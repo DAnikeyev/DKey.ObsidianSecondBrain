@@ -2,6 +2,9 @@
 date_added: 2025-03-17
 tags:
   - csharp
+sr-due: 2025-04-05
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [Asynchronous programming](Asynchronous%20programming.md)
 ___
@@ -27,3 +30,5 @@ FROM [[]]
 WHERE contains(file.name, "")
 SORT file.name ASC
 ```
+
+![](Pasted%20image%2020250324053318.png)
