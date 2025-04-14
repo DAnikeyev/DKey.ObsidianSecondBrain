@@ -3,7 +3,7 @@ date_added: 2025-02-03
 tags:
   - csharp
 ---
-Up: [Serialization](Data/Serialization.md)
+Up: [Serialization](CSharp/Serialization.md) [Serialization](Data/Serialization.md)
 ___
 System.Text.Json is a high-performance JSON framework o serialize and deserialize JSON data.
 

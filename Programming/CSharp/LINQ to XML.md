@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Working with XML](Working%20with%20XML.md)
 ___
-System.Xml.Linq has classes like XDocument and XElement. They have more convenient methods compared to  [XMLDocument](XMLDocument.md)
+System.Xml.Linq has classes like XDocument and XElement. They have more convenient methods to work with [[XML]] compared to  [XMLDocument](XMLDocument.md)
 
 | Class                    | Description                                                                                                        | Popular Methods/Properties                                                |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |

@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Controller in Asp.Net](Controller%20in%20Asp.Net.md)
 ___
-Is a [MiddleWare in WepApi](MiddleWare%20in%20WepApi.md)
+Is a [MiddleWare in WebApi](MiddleWare%20in%20WebApi.md)
 
 Model binding in ASP.NET Core is a feature that automatically maps data from HTTP requests (such as route values, query strings, form data, and JSON payloads) to C# objects or method parameters.
 

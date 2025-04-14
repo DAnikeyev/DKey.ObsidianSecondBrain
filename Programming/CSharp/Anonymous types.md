@@ -19,8 +19,6 @@ ___
 Console.WriteLine(v.Amount + v.Message);
 ```
 
-Anonymous types are typically used in the [LINQ](LINQ)
-For example var keyword is used to create an anonymous type from returned "interface".
 ```cs
 var people = new[] { new { Name = "Alice", Age = 30 }, new { Name = "Bob", Age = 25 } }; var names = people.Select(person => new { person.Name });
 ```

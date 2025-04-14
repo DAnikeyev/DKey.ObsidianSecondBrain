@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Exception](Exception.md) [Task](Task.md)
 ___
-If an exceotion is thrown in task, acquiring [[TaskResult]] or calling Task.Wait() will throw AggregateException with all Inner exceptions stored in `ReadOnlyCollection<Exception> InnerExceptions`
+If an exception is thrown in task, acquiring [[TaskResult]] or calling Task.Wait() will throw AggregateException with all Inner exceptions stored in `ReadOnlyCollection<Exception> InnerExceptions`
 # Links
 ```dataview
 LIST

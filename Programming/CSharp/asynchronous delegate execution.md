@@ -5,6 +5,7 @@ tags:
 ---
 Up: [Delegate](Delegate.md)
 ___
+Follows [Asynchronous Programming Model (APM)](Asynchronous%20Programming%20Model%20(APM).md)
 ### BeginInvoke
 
 - **Purpose**: Starts the asynchronous execution of a delegate.
@@ -12,7 +13,7 @@ ___
   - The same parameters as the delegate.
   - An `AsyncCallback` delegate.
   - An object representing state information.
-- **Returns**: An `IAsyncResult` that can be used to monitor the progress of the asynchronous operation.
+- **Returns**: An [[IAsyncResult]] that can be used to monitor the progress of the asynchronous operation.
 
 ### EndInvoke
 

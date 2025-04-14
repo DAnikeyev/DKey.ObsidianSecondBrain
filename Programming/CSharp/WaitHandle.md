@@ -7,7 +7,6 @@ Up: [Synchronisation Primitives](Synchronisation%20Primitives.md)
 ___
 
 Encapsulates operating system-specific objects that wait for exclusive access to shared resources. It is abstract class with methods:
-
  - `WaitOne()`  - Blocks the current thread until the current WaitHandle receives a signal.
  - static `WaitAll()`  - Blocks the current thread until all the WaitHandle objects are in the signaled state.
  - static `WaitAny()`  - Blocks the current thread until one of the WaitHandle objects receives a signal.

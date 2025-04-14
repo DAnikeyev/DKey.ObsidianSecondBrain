@@ -8,6 +8,10 @@ ___
  A closure is a feature in C# (and many other languages) where a lambda expression or anonymous method "closes over" variables defined in its surrounding scope. In simpler terms, even after the method that created these variables has finished executing, the lambda or anonymous method can continue to access and modify these captured variables.
 
 works for [Lambda Expressions](Lambda%20Expressions.md), [Delegate](Delegate.md) and [yield](yield.md) return methods or in any cases when method captures a variable from outer scope.
+
+>[!Important]
+>Local variables are captured by reference, not by value. This means that if the variable is modified after the closure is created, the closure will see the updated value.
+> 
 ## Examples
 
 ```cs

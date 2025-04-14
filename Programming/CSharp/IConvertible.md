@@ -7,8 +7,7 @@ Up: [Fundamental Interfaces](Fundamental%20Interfaces.md)
 ___
 
 >[!Info]
-> 
-If you implement the [IConvertible](https://learn.microsoft.com/en-us/dotnet/api/system.iconvertible?view=net-9.0) interface, your implementation will be called automatically by the [ChangeType(Object, Type)](https://learn.microsoft.com/en-us/dotnet/api/system.convert.changetype?view=net-9.0#system-convert-changetype\(system-object-system-type\)) method if the [Object](https://learn.microsoft.com/en-us/dotnet/api/system.object?view=net-9.0) parameter is an instance of your implementing type and the [Type](https://learn.microsoft.com/en-us/dotnet/api/system.type?view=net-9.0) parameter is a common language runtime type.
+> 	If you implement the [IConvertible](https://learn.microsoft.com/en-us/dotnet/api/system.iconvertible?view=net-9.0) interface, your implementation will be called automatically by the [ChangeType(Object, Type)](https://learn.microsoft.com/en-us/dotnet/api/system.convert.changetype?view=net-9.0#system-convert-changetype\(system-object-system-type\)) method if the [Object](https://learn.microsoft.com/en-us/dotnet/api/system.object?view=net-9.0) parameter is an instance of your implementing type and the [Type](https://learn.microsoft.com/en-us/dotnet/api/system.type?view=net-9.0) parameter is a common language runtime type.
 
 
 ```cs

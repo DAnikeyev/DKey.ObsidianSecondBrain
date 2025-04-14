@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Serialization](Data/Serialization.md)
 ___
-For serialization, depended object also have to be seriailized. Serialization might do that under the hood.
+For serialization, depended object also have to be serialized. Serialization might do that under the hood.
 
 ![Graph example](Pasted%20image%2020250308122037.png)
 # Links

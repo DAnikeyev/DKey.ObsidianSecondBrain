@@ -7,7 +7,6 @@ Up: [Cancellation Token](Cancellation%20Token.md)
 ___
 Create a [Cancellation Token](Cancellation%20Token.md) or signals to a [Cancellation Token](Cancellation%20Token.md) that it should be canceled.
 
-
 ## Useful methods
 
 ```csharp

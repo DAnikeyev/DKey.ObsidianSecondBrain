@@ -1,7 +1,7 @@
 ---
 date_added: 2025-04-01
 tags:
-  - cs
+  - csharp
 ---
 Up: [virtual](virtual.md) [abstract](abstract.md) [Class](Class.md) [keyword](keyword.md)
 ___

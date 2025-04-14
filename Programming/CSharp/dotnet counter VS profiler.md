@@ -8,15 +8,12 @@ ___
  ### Analyzing .NET Counters Data:
 
 1. **Counters Graph:**
-    
     - The Counters graph displays the collected data for each selected counter over time.
     - You can see how different metrics change during the execution of your application.
 2. **Detailed Counter Data:**
-    
     - Each counter has detailed data points that you can analyze.
     - For example, you can see the exact CPU usage or memory usage at specific points in time.
 3. **Identify Performance Bottlenecks:**
-    
     - By analyzing the data, you can identify performance bottlenecks, such as high CPU usage, excessive memory allocations, or frequent garbage collections.
 4. **Compare Counter Data:**
     

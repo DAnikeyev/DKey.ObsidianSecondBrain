@@ -12,7 +12,7 @@ ___
  
  Beginning with C# 11, an interface may define `static abstract` or `static virtual` members to declare that an implementing type must provide the declared members. Typically, `static virtual` methods declare that an implementation must define a set of overloaded methods.
 
-Unlike [Abstract class](Abstract%20class.md) Interaces can't have [Constructor](Constructor.md) or non-static [[Field]]
+Unlike [Abstract class](Abstract%20class.md) Interfaces can't have [Constructor](Constructor.md) or non-static [[Field]]
 ## Content
 - [Constant](Constant.md)
 - [Operator](CSharp%20Operator.md)

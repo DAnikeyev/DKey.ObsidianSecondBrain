@@ -5,7 +5,7 @@ tags:
 ---
 Up: [CSharp Fundamentals](CSharp%20Fundamentals.md)
 ___
-In the pure object-oriented paradigm, all functions are methods. In C#, methods are only one kind of function member, which also includes properties and events (there are others, too)
+In the pure object-oriented paradigm, all functions are [Method](Method.md). In C#, methods are only one kind of function member, which also includes [Property](Property.md) and [Event](Event.md) (there are others, too)
 
 # Links
 ```dataview

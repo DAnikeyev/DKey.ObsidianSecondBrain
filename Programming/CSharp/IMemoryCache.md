@@ -6,6 +6,12 @@ Up: [Cache practices](Cache%20practices.md)
 ___
 MemoryCache is a simple in-memory cache that is suitable for small amounts of data. It is a key-value store that is thread-safe and can be used to cache data in a web application.
 
+In asp you can use 
+```cs
+services.AddMemoryCache();
+services.AddTransient<CacheExample>();
+```
+
 >[!Info]
 > MemoryCacheOptions is used to configure the MemoryCache. It has properties like ExpirationScanFrequency, SizeLimit, CompactionPercentage, SetAbsoluteExpiration
 , and so on.

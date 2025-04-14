@@ -20,6 +20,8 @@ Func<int, int, int> sum = (a, b) => a + b;
 Console.WriteLine(sum(3, 4));  // output: 7
 ```
 
+>[!Warning]
+> Only result of the last delegate of multicast delegate is returned.
 # Links
 ```dataview
 LIST

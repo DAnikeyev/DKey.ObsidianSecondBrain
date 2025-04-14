@@ -10,7 +10,6 @@ ___
     - Use [Span T](Span%20T.md) and [Memory T](Memory%20T.md) for efficient handling of contiguous memory.
     - Minimize allocations by reusing objects.
 - **Optimized Collections**:
-    
     - Use the appropriate collection type for your use case (e.g., `List<T>`, `Dictionary<TKey, TValue>`).
     - Consider using specialized collections like `ConcurrentDictionary` for thread-safe operations.
 - **[Parallel](Parallel%20class.md) and [Asynchronous programming](Asynchronous%20programming.md)**:
@@ -32,7 +31,6 @@ ___
 - Consider `ValueTask` for high-performance scenarios
 - Use `ConfigureAwait(false)` when appropriate
 ### Benchmarking
-
 - Use [[BenchmarkDotNet]] for accurate performance measurements
 - Profile before optimizing to identify bottlenecks
 - Measure in release mode with realistic data sets

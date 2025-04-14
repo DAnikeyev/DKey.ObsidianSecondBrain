@@ -3,6 +3,9 @@ date_added: 2024-10-09
 tags:
   - design
   - csharp
+sr-due: 2025-04-07
+sr-interval: 4
+sr-ease: 270
 ---
 Up: [SOLID principles](SOLID%20principles.md)
 ___

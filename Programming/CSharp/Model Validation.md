@@ -5,7 +5,7 @@ tags:
 ---
 Up: [Controller in Asp.Net](Controller%20in%20Asp.Net.md)
 ___
- Is a [MiddleWare in WepApi](MiddleWare%20in%20WepApi.md) Model validation in ASP.NET Core ensures that incoming data conforms to expected formats, values, and business rules before processing it further. The framework provides several features to support robust validation with minimal code. Here’s an overview:
+ Is a [MiddleWare in WebApi](MiddleWare%20in%20WebApi.md) Model validation in ASP.NET Core ensures that incoming data conforms to expected formats, values, and business rules before processing it further. The framework provides several features to support robust validation with minimal code. Here’s an overview:
 
 1. Built-in Data Annotations:  
     ASP.NET Core supports a variety of built-in validation attributes provided by the System.ComponentModel.DataAnnotations namespace, such as [Required], [Range], [StringLength], [EmailAddress], etc. These attributes can be applied directly to model properties.

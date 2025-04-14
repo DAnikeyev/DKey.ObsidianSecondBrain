@@ -73,7 +73,6 @@ catch block in the .NET runtime. The runtime then displays an error message to t
 ### CLS compliant
 RuntimeWrappedException : Exception may be used to wrap exceptions that are not CLS-compliant.
 
-
 # Links
 ```dataview
 LIST
