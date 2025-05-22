@@ -1,6 +1,7 @@
 ---
 date_added: 2025-03-20
-tags: []
+tags:
+  - csharp
 ---
 Up: [Cache practices](Cache%20practices.md)
 ___

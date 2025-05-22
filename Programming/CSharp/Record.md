@@ -15,6 +15,8 @@ SORT file.name ASC
 ```
 You use the `record` modifier to define a [Reference Type](Reference%20Type.md)that provides built-in functionality for encapsulating data. The `record class` syntax as a synonym to clarify a reference type, and `record struct` to define a [Value Type](Value%20Type.md)with similar functionality.
 
+>[!Important]
+> Unless {get; set;} is specified, all properties are `init-only` and can only be set during object initialization. This is similar to the `readonly` modifier for fields.
 ## Record class
 
 ```cs

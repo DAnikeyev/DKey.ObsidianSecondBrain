@@ -17,6 +17,11 @@ Console.WriteLine(optionalNumber + notOptionalNumber);
 >[!Warning]
 > Changing default value is dangerous, because the consumer might not know about that change
 
+
+>[!Warning]
+> Adding an optional parameter to a public method that’s called
+from another assembly requires recompilation of both assemblies—
+just as though the parameter were mandatory.
 # Links
 ```dataview
 LIST

@@ -5,7 +5,7 @@ tags:
 ---
 Up: [[CSharp]]
 ___
-Also called runtime, consist of [[CLR]] including [BCL](BCL.md) and an optional Application Layer such as [ASP.NET](ASP.NET.md) or [WinForms](WinForms.md). Applcation targets specific runtime.
+Also called [[Runtime]], consist of [[CLR]] including [BCL](BCL.md) and an optional Application Layer such as [ASP.NET](ASP.NET.md) or [WinForms](WinForms.md). Applcation targets specific runtime.
 
 # Links
 ```dataview

@@ -28,16 +28,72 @@ ___
 
 
  - Потоки исполнения = потоки ("В этой главе вы познакомитесь с потоками исполнения, или просто потоки (threads)")?
-- 
-```
-## Темы которые менее полезны чем список ниже и присутствуют в МК (В т.ч. опосредованно):
-- Constrained Execution Region
-- Code contracts
-- Execution/Synchronization Context
-## Темы, которые более полезны чем список выше и отсутствуют в МК:
 
- - Synchronisation primitives
- - ValueTask
+
+## Темы с неактуальной информацией:
+ - AppDomain - Неработает в .net6+ см. https://learn.microsoft.com/en-us/dotnet/core/porting/net-framework-tech-unavailable
+ - 
+
+
+## Некоторые полезные источники - 
+ - Актуальный синтаксис - https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/
+	 - В целом для любого изучаемого типа будет не лишним посмотреть информацию на learn.microsoft, там часто актуализированная информация и примеры, в т.ч. под последние фреймворки и версии языка. Например : https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface
+	   ``` Beginning with C# 11, an interface may declare `static abstract` and `static virtual` members for all member types except fields```
+ - Synchronisation vs execution context - https://devblogs.microsoft.com/dotnet/executioncontext-vs-synchronizationcontext/
+ - Garbage collection - https://www.youtube.com/watch?v=upwJMz22E4w&list=PLBwwJL9lzKMY3At-QQQijfiHdsYnOQ7vY&index=3
+ - Dispose pattern - https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose
+ - Threading best practices https://learn.microsoft.com/en-us/dotnet/standard/threading/managed-threading-best-practices
+ - TAP и разные сценарии использования https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap
+
+# Фидбек по темам:
+## General
+#### Темы которые хотелось бы видеть здесь:
+ - Наследование. Использование ключевых слов и модификаторов override, this, base, protected, virtual, abstract, as, is, порядок инициализации и конструктора. 
+	 - (C# 12 in a Nutshell, pp. 126-138) 
+	 - https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/base
+	 - https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/this
+- `record`, `record struct`, `ref struct` 
+	- https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct 
+	 - (C# 12 in a Nutshell, pp. 142-147) 
+	 - (C# 12 in a Nutshell, pp. 227-238) 
+- Generics, в особенности Generic constraints, часто используется 
+	- https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters
+- Reference parameters: ref, in, out, ref readonly 
+	- https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/method-parameters
+#### Темы, которые хотелось бы переместить в столбец N и/или доработать 
+ - AppDomain - не работает в .net6+ см. https://learn.microsoft.com/en-us/dotnet/core/porting/net-framework-tech-unavailable бросает `System.PlatformNotSupportedException: Secondary AppDomains are not supported on this platform.`
+ - BinarySerialization Obsolete and risky: https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-migration-guide/ Возможно, стоит заменить на основы протобуфа или messagePack.
+ - .Net Core. WebApi: Неактульный обзор в исчточнике, в новых ASP.net используют WebApplication вместо IWebHost. 
+    - https://learn.microsoft.com/en-us/aspnet/core/fundamentals/apis?view=aspnetcore-6.0
+    - Возможно обзора MinimalApi достаточно для базового понимания для миддла. 
+    - Либо наоборот, если нужно более полное понимание сервисов, стоит изучать также grpcService https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-9.0  например, в нашей команде почти не используется WebApplication, но используется grpcService (Grpc.AspNetCore) через Ap.Bootstrap.
+## Многопоточность
+ - Повторяется тема?  Поток (System.Threading.Thread) (4 Глава 26, 27), (13) = Потоки исполнения (4 Глава 26) `"В этой главе вы познакомитесь с потоками исполнения, или просто потоки (threads)"
+#### Темы, которые хотелось бы видеть здесь:`
+ - Примитивы синхронизации
+ - PLinq, Parallel class (C# 12 in a Nutshell, глава 22)
+## Performance
+
+#### Темы, которые хотелось бы видеть здесь:
+ - ValueTask (C# 12 in a Nutshell, глава 23) 
+ - `Lazy<T>`
+	 - https://learn.microsoft.com/en-us/dotnet/framework/performance/lazy-initialization
+ - `Span<T>/Memory<T>` (C# 12 in a Nutshell, глава 23)
+ - Performance strategies. Reducing allocations and other tips.
+	 - https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/performance/
+	 - https://learn.microsoft.com/en-us/dotnet/framework/performance/performance-tips
+- Быстрые коллекции. SortedSet, SortedDictionary, SortedList, Immutable and Frozen collections.  
+	- (C# 12 in a Nutshell, глава 7)
+	- https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic?view=net-9.0
+
+#### Темы, которые хотелось бы переместить в столбец N и/или доработать 
+ - Channel
+	 - По моему опыту, применяется намного реже, чем то, что указано выше. Мне кажется, что его стоит либо подвинуть в столбец N, либо добавить темы из верхнего списка.
+- Профайлинг 
+	- ссылка на исчтоник не работает[Обзор ASP.NET профайлеров](https://habr.com/ru/post/109418/) 
+	- можно, например, добавить BenchmarkDotnet https://benchmarkdotnet.org/articles/overview.html
+- Batching - отсутствует ссылка. 
+
 # Links
 ```dataview
 LIST

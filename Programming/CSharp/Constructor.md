@@ -16,7 +16,7 @@ ___
 }
  ```
 
-Primary constructors are available in C# 12:
+[[Primary constructors]] are available in C# 12:
 ```cs
 public class NamedItem(string name)
 {
@@ -43,8 +43,16 @@ class Car
 ```
 
 ### Static Constructors
-Static constructors are called once per class, not per instance. They are called before the class is accessed first time and are thread-safe.
 
+Static constructors are called once per class, not per instance. They are called before the class is accessed first time and are thread-safe.
+The only modifiers allowed by static constructors are unsafe and extern.
+>[!Error]
+> If a static constructor throws an unhandled exception, that type becomes unusable for the life of the application.
+### Implicit parameterless constructors
+For classes, the C# compiler automatically generates a parameterless public constructor
+if and only if you do not define any constructors. However, as soon as
+you define at least one constructor, the parameterless constructor is no longer
+automatically generated.
 
 # Links
 ```dataview

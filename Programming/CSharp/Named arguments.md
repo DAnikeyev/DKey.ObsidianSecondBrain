@@ -14,7 +14,7 @@ for what:
 You can change the invocation to make it immediately clear what the numbers mean:
 `r.MoveAndResize(x: 30, y: 40, width: 20, height: 40);`
 
-Combines well with [[Optional arguments]]
+Combines well with [[Optional parameters]]
 # Links
 ```dataview
 LIST
