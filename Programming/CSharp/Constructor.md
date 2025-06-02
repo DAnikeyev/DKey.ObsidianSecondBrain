@@ -54,6 +54,37 @@ if and only if you do not define any constructors. However, as soon as
 you define at least one constructor, the parameterless constructor is no longer
 automatically generated.
 
+### Order for subclasses:
+
+1. From subclass to base class:
+   a. Fields are initialized.
+   b. Arguments to base-class constructor calls are evaluated.
+2. From base class to subclass:
+   a. Constructor bodies execute.
+
+For example:
+
+```csharp
+public class B
+{
+    int x = 1; // Executes 3rd
+    public B (int x)
+    {
+        ... // Executes 4th
+    }
+}
+
+public class D : B
+{
+    int y = 1; // Executes 1st
+    public D (int x)
+        : base (x + 1) // Executes 2nd
+    {
+        ... // Executes 5th
+    }
+}
+```
+
 # Links
 ```dataview
 LIST

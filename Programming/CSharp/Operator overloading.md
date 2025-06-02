@@ -93,6 +93,20 @@ Celsius c = f; // Implicit conversion
 
 - `implicit` (for defining implicit conversions)
 - `explicit` (for defining explicit conversions)
+
+## Can't overload these operators:
+1. **Assignment Operator**: =
+2. **Conditional Logical Operators**: `&&`, `||`
+3. **Equality Operators**: ==, != (Note: You can overload these, but you must overload them in pairs)
+4. **Member Access Operators**: `.`, `->`
+5. **Type Operators**: `is`, `as`
+6. **Conditional Operator**: `?:`
+7. **Null Coalescing Operator**: `??`
+8. **New Operator**: `new`
+9. **Typeof Operator**: `typeof`
+10. **Sizeof Operator**: `sizeof`
+11. **Checked and Unchecked Operators**: `checked`, `unchecked`
+12. **Nameof Operator**: `nameof`
 # Links
 ```dataview
 LIST

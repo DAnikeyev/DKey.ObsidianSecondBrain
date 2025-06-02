@@ -41,6 +41,8 @@ unsafe
 
 You can use the `fixed` keyword to create a buffer with a fixed-size array in a data structure.
 
+>[!Info]
+> This does store data directly in struct instead of reference to an array.
 ```cs
 internal unsafe struct Buffer
 {

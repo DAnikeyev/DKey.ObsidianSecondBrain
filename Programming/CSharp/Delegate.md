@@ -8,6 +8,8 @@ sr-ease: 250
 ---
 Up: [CSharp Fundamentals](CSharp%20Fundamentals.md)
 ___
+ It's an object that knows how to call a method.
+ 
  Using delegates, C# allows functions to be passed as values to and from other functions.
 Instance of delegate represent a method with a parameter list and return type.
 ```cs

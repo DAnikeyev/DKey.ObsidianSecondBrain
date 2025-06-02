@@ -19,15 +19,42 @@ void* identifier; //allowed but not recommended
 
 Pointer types don't inherit from [Object](Object.md) and no conversions exist between pointer types and `object`
 
-==fixed== can be used for variables will be pinned in memory and can't be moved by the garbage collector. 
+[[fixed]] can be used for variables will be pinned in memory and can't be moved by the garbage collector. 
 
-==stackalloc== can be used to allocate memory on the stack. ````
+[stackalloc](stackalloc.md) can be used to allocate memory on the stack. ````
 
 ```cs
 Span<int> numbers = stackalloc int[length];
 fixed (byte* pointerToFirst = numbers)
 ```
 
+
+## Void pointer
+
+void pointer (void*) makes no assumptions about the type of the underlying data
+and is useful for functions that deal with raw memory
+
+```cs
+unsafe void Zap (void* memory, int byteCount)
+{
+	byte* b = (byte*)memory;
+	for (int i = 0; i < byteCount; i++)
+		*b++ = 0;
+}
+```
+
+## Function pointer
+
+Driectly points to a static methods. Mostly used in [Interoperability](Interoperability.md)
+```cs
+delegate*<int, char, string, void> // (void refers to the return type)
+
+unsafe
+{
+	delegate*<string, int> functionPointer = &GetLength;
+	int length = functionPointer ("Hello, world");
+	static int GetLength (string s) => s.Length;
+}
 ```
 # Links
 ```dataview
