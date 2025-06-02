@@ -7,6 +7,7 @@ Up: [[LINQ]]
 ___
  In LINQ, many methods (e.g., `Where`, `Select`, `SelectMany`, `Skip`, `Take`) are "deferred". This means they build a query expression and wait to run until you iterate over the results or force immediate execution (for example, with `ToList()`, `Count()`, or `First()`).
 
+![](Pasted%20image%2020250602185106.png)
 ## How to Identify a Deferred Method
 
 • Typically returns an `IEnumerable<T>` and doesn't transform the sequence into a final value or collection on the spot.  

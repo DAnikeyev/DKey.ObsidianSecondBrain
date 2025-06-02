@@ -7,6 +7,29 @@ Up: [Collection Interface](Collection%20Interface.md), [[LINQ]]
 ___
  `IQueryable<T>` is a generic interface that provides functionality to evaluate queries against a specific data source where the type of data is known. It inherits from [IEnumerable](IEnumerable.md) and `IQueryable`.
 
+Local queries resolve to query operators in the Enumerable class (by default), which
+in turn resolve to chains of decorator sequences. The delegates that they accept—
+whether expressed in query syntax, fluent syntax, or traditional delegates—are fully
+local to Intermediate Language (IL) code, just like any other C# method.
+
+By contrast, interpreted queries are descriptive. They operate over sequences that
+implement `IQueryable<T>`, and they resolve to the query operators in the Querya
+ble class, which emit expression trees that are interpreted at runtime.
+
+It’s also possible to generate an `IQueryable<T>` wrapper around an ordinary enumerable
+collection by calling the AsQueryable method.
+
+![](Pasted%20image%2020250602185658.png)
+
+Queryable.Where accepts a predicate wrapped in an `Expression<TDelegate>`
+type. This instructs the compiler to translate the supplied lambda expression—
+in other words, n=>n.Name.Contains("a")—to an expression tree rather than a
+compiled delegate. An expression tree is an object model based on the types in
+System.Linq.Expressions that can be inspected at runtime (so that EF Core can
+later translate it to an SQL statement).
+
+>[!Info]
+> Interpreted queries follow a deferred execution model—just like local queries.
 ## Properties
 
 |   |   |
