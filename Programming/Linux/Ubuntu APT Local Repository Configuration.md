@@ -45,7 +45,7 @@ Trusted: yes
 ```
 
 **Important Configuration Notes:**
-- `URIs: file:///app/local-repo` - Points to your local repository path (note the three slashes: `file://` + `/app/local-repo`)
+- `URIs: file:///app/local-repo` - Points to your local repository path (the URI format is `file://` followed by the absolute path `/app/local-repo`)
 - `Suites: ./` - The dot-slash indicates a flat repository structure
 - `Components:` - Left empty for flat repositories
 - `Trusted: yes` - Required for local repositories without GPG signatures
@@ -90,6 +90,7 @@ If you need to create a local repository from scratch:
 cd /app/local-repo
 
 # Generate Packages index
+# Note: /dev/null as second parameter means no override files are used
 dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
 
 # Create uncompressed version (optional but recommended)
